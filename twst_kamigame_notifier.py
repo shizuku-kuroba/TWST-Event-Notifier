@@ -39,6 +39,8 @@ HEADERS = {
 }
 
 REQUEST_INTERVAL_SEC = 1.0
+ICS_PAST_WINDOW_DAYS = 30
+ICS_FUTURE_WINDOW_DAYS = 210
 
 # ---------------------------------------------------------------------------
 # 抓取 & 解析
@@ -243,10 +245,25 @@ def save_state(state: dict) -> None:
         json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
+def should_include_in_ics(info: dict, now: datetime | None = None) -> bool:
+    if not info.get("start"):
+        return False
+
+    now = now or datetime.now(timezone.utc)
+    try:
+        start = datetime.fromisoformat(info["start"]).astimezone(timezone.utc)
+        end = datetime.fromisoformat(info["end"]).astimezone(timezone.utc) if info.get("end") else start
+    except ValueError:
+        return False
+
+    oldest = now - timedelta(days=ICS_PAST_WINDOW_DAYS)
+    newest = now + timedelta(days=ICS_FUTURE_WINDOW_DAYS)
+    return end >= oldest and start <= newest
+
 def generate_ics(state: dict):
     cal = Calendar()
     for key, info in state.items():
-        if info.get("start"):
+        if should_include_in_ics(info):
             e = Event()
             e.name = info.get("title", "未知活動")
             e.begin = info["start"]
