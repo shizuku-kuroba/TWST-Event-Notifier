@@ -205,8 +205,21 @@ def fetch_event_detail(url: str) -> str:
 # ---------------------------------------------------------------------------
 
 def load_state() -> dict:
-    if STATE_FILE.exists():
-        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    if not STATE_FILE.exists():
+        return {}
+    raw = STATE_FILE.read_bytes()
+    if not raw.strip():
+        return {}
+    # 依序嘗試常見編碼，容忍 Windows 編輯器/PowerShell 存出來的 UTF-16 或帶 BOM 的 UTF-8
+    for encoding in ("utf-8", "utf-8-sig", "utf-16"):
+        try:
+            return json.loads(raw.decode(encoding))
+        except (UnicodeDecodeError, json.JSONDecodeError):
+            continue
+    print(
+        f"[警告] {STATE_FILE} 無法用常見編碼解析，當作空白重新開始。",
+        file=sys.stderr,
+    )
     return {}
 
 
