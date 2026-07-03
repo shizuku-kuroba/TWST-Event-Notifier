@@ -39,8 +39,6 @@ HEADERS = {
 }
 
 REQUEST_INTERVAL_SEC = 1.0
-ICS_PAST_WINDOW_DAYS = 365
-ICS_FUTURE_WINDOW_DAYS = 210
 
 # ---------------------------------------------------------------------------
 # 抓取 & 解析
@@ -64,18 +62,20 @@ def parse_date_text(text, default_year=None):
     parts = text.split('〜')
     
     def extract_dt(part, is_end=False):
-        match = re.search(r'(\d+)月(\d+)日[^\d]*?(\d{1,2})[:：](\d{2})', part)
+        match = re.search(r'(?:(\d{4})年)?(\d+)月(\d+)日[^\d]*?(\d{1,2})[:：](\d{2})', part)
         if not match:
             # 嘗試沒有時分的格式
-            match = re.search(r'(\d+)月(\d+)日', part)
+            match = re.search(r'(?:(\d{4})年)?(\d+)月(\d+)日', part)
             if not match: return None
-            month, day = map(int, match.groups())
+            year_text, month, day = match.groups()
+            month, day = int(month), int(day)
             hr, mn = (14, 59) if is_end else (16, 0)
         else:
-            month, day, hr, mn = map(int, match.groups())
+            year_text, month, day, hr, mn = match.groups()
+            month, day, hr, mn = map(int, (month, day, hr, mn))
 
-        year = default_year if default_year else now.year
-        if not default_year:
+        year = int(year_text) if year_text else (default_year if default_year else now.year)
+        if not year_text and not default_year:
             if month > now.month + 2: year -= 1
             elif month < now.month - 2: year += 1
             
@@ -110,10 +110,6 @@ def parse_events_index(html: str) -> dict:
         if heading_text and not year_match and "開催中" not in heading_text:
             continue
             
-        # 如果這個表格是兩年以前的歷史活動，直接跳過，不存入 state 也不推播
-        if table_year and table_year < now.year - 1:
-            continue
-
         first_row = table.find("tr")
         headers = []
         if first_row:
@@ -245,25 +241,10 @@ def save_state(state: dict) -> None:
         json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-def should_include_in_ics(info: dict, now: datetime | None = None) -> bool:
-    if not info.get("start"):
-        return False
-
-    now = now or datetime.now(timezone.utc)
-    try:
-        start = datetime.fromisoformat(info["start"]).astimezone(timezone.utc)
-        end = datetime.fromisoformat(info["end"]).astimezone(timezone.utc) if info.get("end") else start
-    except ValueError:
-        return False
-
-    oldest = now - timedelta(days=ICS_PAST_WINDOW_DAYS)
-    newest = now + timedelta(days=ICS_FUTURE_WINDOW_DAYS)
-    return end >= oldest and start <= newest
-
 def generate_ics(state: dict):
     cal = Calendar()
     for key, info in state.items():
-        if should_include_in_ics(info):
+        if info.get("start"):
             e = Event()
             e.name = info.get("title", "未知活動")
             e.begin = info["start"]
