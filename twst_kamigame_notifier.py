@@ -94,57 +94,89 @@ def parse_date_text(text, default_year=None):
 
 def parse_events_index(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
-    now = datetime.now(timezone(timedelta(hours=9)))
     events = {}
-    
+
+    yearly_blocks = soup.select('div[data-group="過去のイベント開催情報"][data-trigger]')
+    for block in yearly_blocks:
+        year_match = re.search(r"(\d{4})年", block.get("data-trigger", ""))
+        if not year_match:
+            continue
+
+        table_year = int(year_match.group(1))
+        table = block.find("table")
+        if table:
+            extract_event_table(table, events, table_year)
+
+    # 開催中のイベントスケジュールなど、明確な年がない現在向けの表も拾う。
     for table in soup.find_all("table"):
-        # 判斷表格所屬年份
+        if table.find_parent('div', attrs={"data-group": "過去のイベント開催情報"}):
+            continue
+
         heading = table.find_previous(["h2", "h3", "h4"])
         heading_text = heading.get_text(strip=True) if heading else ""
-        
-        year_match = re.search(r"(\d{4})年", heading_text)
-        table_year = int(year_match.group(1)) if year_match else None
-        
-        # 過濾掉非活動的總整表格 (例如：歷代マスターシェフ、各種攻略等)
-        # 允許：有標題且包含"開催中"、沒有標題的置頂表格、有年份的表格
-        if heading_text and not year_match and "開催中" not in heading_text:
+        if heading_text and "開催中" not in heading_text:
             continue
-            
-        first_row = table.find("tr")
-        headers = []
-        if first_row:
-            th_cells = first_row.find_all("th")
-            if th_cells:
-                headers = [th.get_text(strip=True) for th in th_cells]
-            else:
-                headers = [td.get_text(strip=True) for td in first_row.find_all("td")]
-                
-        if len(headers) >= 2 and ("イベント名" in headers[0] or "キャンペーン" in headers[0] or "マスターシェフ" in headers[0] or "開催期間" in headers[1]):
-            for tr in table.find_all("tr"):
-                tds = tr.find_all(["td", "th"])
-                if len(tds) >= 2:
-                    title = tds[0].get_text(" ", strip=True)
-                    if title in ["イベント名", "キャンペーン名", "マスターシェフ"]:
-                        continue
-                        
-                    date_text = tds[1].get_text(" ", strip=True)
-                    start, end = parse_date_text(date_text, default_year=table_year)
-                    if not start:
-                        continue
-                        
-                    a_tag = tr.find("a")
-                    href = a_tag.get("href") if a_tag else None
-                    url = (href if href.startswith("http") else BASE_URL + href) if href else None
-                        
-                    events[title] = {
-                        "title": title,
-                        "url": url,
-                        "start": start,
-                        "end": end,
-                        "description": "",
-                        "type": "event"
-                    }
+
+        extract_event_table(table, events, None)
+
     return events
+
+def event_key(ev: dict) -> str:
+    if ev.get("start"):
+        return f"{ev['title']}|{ev['start']}"
+    if ev.get("url"):
+        return f"{ev['title']}|{ev['url']}"
+    return ev["title"]
+
+def state_has_event(state: dict, key: str, ev: dict) -> bool:
+    if key in state:
+        return True
+
+    legacy = state.get(ev["title"])
+    if not legacy:
+        return False
+
+    return (
+        legacy.get("start") == ev.get("start")
+        or (not ev.get("start") and legacy.get("url") == ev.get("url"))
+    )
+
+def extract_event_table(table, events: dict, table_year: int | None) -> None:
+    first_row = table.find("tr")
+    headers = []
+    if first_row:
+        th_cells = first_row.find_all("th")
+        if th_cells:
+            headers = [th.get_text(strip=True) for th in th_cells]
+        else:
+            headers = [td.get_text(strip=True) for td in first_row.find_all("td")]
+
+    if len(headers) >= 2 and ("イベント名" in headers[0] or "キャンペーン" in headers[0] or "マスターシェフ" in headers[0] or "開催期間" in headers[1]):
+        for tr in table.find_all("tr"):
+            tds = tr.find_all(["td", "th"])
+            if len(tds) >= 2:
+                title = tds[0].get_text(" ", strip=True)
+                if title in ["イベント名", "キャンペーン名", "マスターシェフ"]:
+                    continue
+
+                date_text = tds[1].get_text(" ", strip=True)
+                start, end = parse_date_text(date_text, default_year=table_year)
+                if not start:
+                    continue
+
+                a_tag = tr.find("a")
+                href = a_tag.get("href") if a_tag else None
+                url = (href if href.startswith("http") else BASE_URL + href) if href else None
+
+                ev = {
+                    "title": title,
+                    "url": url,
+                    "start": start,
+                    "end": end,
+                    "description": "",
+                    "type": "event"
+                }
+                events[event_key(ev)] = ev
 
 def parse_gacha_summary(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
@@ -344,22 +376,22 @@ def main():
     events_to_push = []
     
     # 針對沒有存在 state 中的新事件處理
-    for title, ev in all_events.items():
-        if title in state:
+    for key, ev in all_events.items():
+        if state_has_event(state, key, ev):
             continue
             
-        # 避免處理太久遠的歷史資料（如果 state 剛好被清空）
+        # 已結束的活動只補進 state/ICS，不補發 Discord。
         if ev.get("start"):
             try:
                 start_dt = datetime.fromisoformat(ev["start"])
-                # 如果是超過 60 天前的舊活動，就只加入 state 不推播
-                if now - start_dt > timedelta(days=60):
-                    state[title] = {"discovered_at": now.isoformat(), **ev}
+                end_dt = datetime.fromisoformat(ev["end"]) if ev.get("end") else start_dt
+                if end_dt < now:
+                    state[key] = {"discovered_at": now.isoformat(), **ev}
                     continue
             except ValueError:
                 pass
                 
-        print(f"  偵測到新情報: {title}")
+        print(f"  偵測到新情報: {ev['title']}")
         
         # 如果是 Gacha，補齊日期
         if ev["type"] == "gacha" and ev["url"]:
@@ -383,7 +415,7 @@ def main():
             if title not in pushed_titles:
                 continue
 
-            state[title] = {
+            state[event_key(ev)] = {
                 "discovered_at": now.isoformat(),
                 **ev
             }
