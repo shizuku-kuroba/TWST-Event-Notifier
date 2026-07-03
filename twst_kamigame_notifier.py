@@ -62,10 +62,10 @@ def parse_date_text(text: str):
         
         # 簡單猜測年份
         year = now.year
-        if now.month == 12 and month == 1:
-            year += 1
-        elif now.month == 1 and month == 12:
+        if month > now.month + 2:
             year -= 1
+        elif month < now.month - 2:
+            year += 1
             
         try:
             start_dt = datetime(year, month, day, hr, mn, tzinfo=timezone(timedelta(hours=9)))
@@ -106,7 +106,11 @@ def parse_events_index(html: str) -> dict:
                 headers = [td.get_text(strip=True) for td in first_row.find_all("td")]
                 
         if len(headers) >= 2 and ("イベント名" in headers[0] or "キャンペーン" in headers[0] or "マスターシェフ" in headers[0] or "開催期間" in headers[1]):
+            count = 0
             for tr in table.find_all("tr"):
+                if count >= 20:
+                    break
+                count += 1
                 tds = tr.find_all(["td", "th"])
                 if len(tds) >= 2:
                     title = tds[0].get_text(" ", strip=True)
