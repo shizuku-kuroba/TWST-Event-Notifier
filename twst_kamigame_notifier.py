@@ -50,82 +50,93 @@ def fetch_html(url: str) -> str:
     resp.encoding = resp.apparent_encoding or "utf-8"
     return resp.text
 
-def parse_date_text(text: str):
+def parse_date_text(text, default_year=None):
+    """
+    從字串中提取時間，支援以下格式：
+    【開催期間】06月30日（火）16:00 〜07月24日（金）14:59
+    """
     start_dt, end_dt = None, None
-    now = datetime.now(timezone.utc)
-    # Start Date
-    m_start = re.search(r'(\d+)[月/](\d+)[日]?', text.split('〜')[0])
-    if m_start:
-        month, day = int(m_start.group(1)), int(m_start.group(2))
-        t_m = re.search(r'(\d{1,2}):(\d{2})', text.split('〜')[0])
-        hr, mn = (int(t_m.group(1)), int(t_m.group(2))) if t_m else (16, 0)
-        
-        # 簡單猜測年份
-        year = now.year
-        if month > now.month + 2:
-            year -= 1
-        elif month < now.month - 2:
-            year += 1
+    now = datetime.now(timezone(timedelta(hours=9)))
+    
+    # 拆分開始與結束時間
+    parts = text.split('〜')
+    
+    def extract_dt(part, is_end=False):
+        match = re.search(r'(\d+)月(\d+)日[^\d]*?(\d{1,2})[:：](\d{2})', part)
+        if not match:
+            # 嘗試沒有時分的格式
+            match = re.search(r'(\d+)月(\d+)日', part)
+            if not match: return None
+            month, day = map(int, match.groups())
+            hr, mn = (14, 59) if is_end else (16, 0)
+        else:
+            month, day, hr, mn = map(int, match.groups())
+
+        year = default_year if default_year else now.year
+        if not default_year:
+            if month > now.month + 2: year -= 1
+            elif month < now.month - 2: year += 1
             
         try:
-            start_dt = datetime(year, month, day, hr, mn, tzinfo=timezone(timedelta(hours=9)))
+            return datetime(year, month, day, hr, mn, tzinfo=timezone(timedelta(hours=9)))
         except ValueError:
-            start_dt = None
-    
-    # End Date
-    if '〜' in text:
-        end_part = text.split('〜')[1]
-        m_end = re.search(r'(\d+)[月/](\d+)[日]?', end_part)
-        if m_end:
-            month, day = int(m_end.group(1)), int(m_end.group(2))
-            t_m = re.search(r'(\d{1,2}):(\d{2})', end_part)
-            hr, mn = (int(t_m.group(1)), int(t_m.group(2))) if t_m else (14, 59)
-            
-            year = now.year
-            if start_dt and month < start_dt.month:
-                year = start_dt.year + 1
-            elif start_dt:
-                year = start_dt.year
-                
-            try:
-                end_dt = datetime(year, month, day, hr, mn, tzinfo=timezone(timedelta(hours=9)))
-            except ValueError:
-                end_dt = None
-            
+            return None
+
+    start_dt = extract_dt(parts[0], False)
+    if len(parts) > 1:
+        end_dt = extract_dt(parts[1], True)
+        if start_dt and end_dt and end_dt.month < start_dt.month:
+            end_dt = end_dt.replace(year=end_dt.year + 1)
+        
     return start_dt.isoformat() if start_dt else None, end_dt.isoformat() if end_dt else None
 
 def parse_events_index(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
+    now = datetime.now(timezone(timedelta(hours=9)))
     events = {}
     
     for table in soup.find_all("table"):
-        headers = [th.get_text(strip=True) for th in table.find_all("th")]
-        if not headers:
-            first_row = table.find("tr")
-            if first_row:
+        # 判斷表格所屬年份
+        heading = table.find_previous(["h2", "h3", "h4"])
+        heading_text = heading.get_text(strip=True) if heading else ""
+        
+        year_match = re.search(r"(\d{4})年", heading_text)
+        table_year = int(year_match.group(1)) if year_match else None
+        
+        # 過濾掉非活動的總整表格 (例如：歷代マスターシェフ、各種攻略等)
+        # 允許：有標題且包含"開催中"、沒有標題的置頂表格、有年份的表格
+        if heading_text and not year_match and "開催中" not in heading_text:
+            continue
+            
+        # 如果這個表格是兩年以前的歷史活動，直接跳過，不存入 state 也不推播
+        if table_year and table_year < now.year - 1:
+            continue
+
+        first_row = table.find("tr")
+        headers = []
+        if first_row:
+            th_cells = first_row.find_all("th")
+            if th_cells:
+                headers = [th.get_text(strip=True) for th in th_cells]
+            else:
                 headers = [td.get_text(strip=True) for td in first_row.find_all("td")]
                 
         if len(headers) >= 2 and ("イベント名" in headers[0] or "キャンペーン" in headers[0] or "マスターシェフ" in headers[0] or "開催期間" in headers[1]):
-            count = 0
             for tr in table.find_all("tr"):
-                if count >= 20:
-                    break
-                count += 1
                 tds = tr.find_all(["td", "th"])
                 if len(tds) >= 2:
                     title = tds[0].get_text(" ", strip=True)
+                    if title in ["イベント名", "キャンペーン名", "マスターシェフ"]:
+                        continue
+                        
                     date_text = tds[1].get_text(" ", strip=True)
-                    
-                    if title in ["イベント名", "開催期間/主な内容"] or "今までに開催された" in title or not date_text:
+                    start, end = parse_date_text(date_text, default_year=table_year)
+                    if not start:
                         continue
                         
                     a_tag = tr.find("a")
                     href = a_tag.get("href") if a_tag else None
                     url = (href if href.startswith("http") else BASE_URL + href) if href else None
-                    
-                    start, end = parse_date_text(date_text)
-                    if not start:
-                        continue
                         
                     events[title] = {
                         "title": title,
