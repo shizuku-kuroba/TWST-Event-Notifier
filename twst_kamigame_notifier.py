@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 扭曲仙境 (Twisted Wonderland) JP 服活動行程 -> Discord 推送與 ICS 產生器
-資料來源: kamigame.jp (神ゲー攻略) - 最新情報と速報まとめ
+資料來源: kamigame.jp (神ゲー攻略)
 """
 
 import os
@@ -22,7 +22,9 @@ from ics import Calendar, Event
 # ---------------------------------------------------------------------------
 
 BASE_URL = "https://kamigame.jp"
+EVENTS_INDEX_URL = "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/index.html"
 SUMMARY_URL = "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/375175514312182214.html"
+
 STATE_FILE = Path(__file__).parent / "state.json"
 ICS_FILE = Path(__file__).parent / "twst_events.ics"
 DISCORD_WEBHOOK_URL = os.environ.get("TWST_DISCORD_WEBHOOK_URL", "").strip()
@@ -38,10 +40,6 @@ HEADERS = {
 
 REQUEST_INTERVAL_SEC = 1.0
 
-JP_DATETIME_RE = re.compile(
-    r"(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日[（\(][^）\)]{1,3}[）\)]\s*(\d{1,2})[:：](\d{2})"
-)
-
 # ---------------------------------------------------------------------------
 # 抓取 & 解析
 # ---------------------------------------------------------------------------
@@ -52,95 +50,161 @@ def fetch_html(url: str) -> str:
     resp.encoding = resp.apparent_encoding or "utf-8"
     return resp.text
 
-def parse_summary_links(soup: BeautifulSoup) -> dict:
-    links_data = {}
+def parse_date_text(text: str):
+    start_dt, end_dt = None, None
+    now = datetime.now(timezone.utc)
+    # Start Date
+    m_start = re.search(r'(\d+)[月/](\d+)[日]?', text.split('〜')[0])
+    if m_start:
+        month, day = int(m_start.group(1)), int(m_start.group(2))
+        t_m = re.search(r'(\d{1,2}):(\d{2})', text.split('〜')[0])
+        hr, mn = (int(t_m.group(1)), int(t_m.group(2))) if t_m else (16, 0)
+        
+        # 簡單猜測年份
+        year = now.year
+        if now.month == 12 and month == 1:
+            year += 1
+        elif now.month == 1 and month == 12:
+            year -= 1
+            
+        try:
+            start_dt = datetime(year, month, day, hr, mn, tzinfo=timezone(timedelta(hours=9)))
+        except ValueError:
+            start_dt = None
+    
+    # End Date
+    if '〜' in text:
+        end_part = text.split('〜')[1]
+        m_end = re.search(r'(\d+)[月/](\d+)[日]?', end_part)
+        if m_end:
+            month, day = int(m_end.group(1)), int(m_end.group(2))
+            t_m = re.search(r'(\d{1,2}):(\d{2})', end_part)
+            hr, mn = (int(t_m.group(1)), int(t_m.group(2))) if t_m else (14, 59)
+            
+            year = now.year
+            if start_dt and month < start_dt.month:
+                year = start_dt.year + 1
+            elif start_dt:
+                year = start_dt.year
+                
+            try:
+                end_dt = datetime(year, month, day, hr, mn, tzinfo=timezone(timedelta(hours=9)))
+            except ValueError:
+                end_dt = None
+            
+    return start_dt.isoformat() if start_dt else None, end_dt.isoformat() if end_dt else None
+
+def parse_events_index(html: str) -> dict:
+    soup = BeautifulSoup(html, "html.parser")
+    events = {}
+    
+    for table in soup.find_all("table"):
+        headers = [th.get_text(strip=True) for th in table.find_all("th")]
+        if not headers:
+            first_row = table.find("tr")
+            if first_row:
+                headers = [td.get_text(strip=True) for td in first_row.find_all("td")]
+                
+        if len(headers) >= 2 and ("イベント名" in headers[0] or "キャンペーン" in headers[0] or "マスターシェフ" in headers[0] or "開催期間" in headers[1]):
+            for tr in table.find_all("tr"):
+                tds = tr.find_all(["td", "th"])
+                if len(tds) >= 2:
+                    title = tds[0].get_text(" ", strip=True)
+                    date_text = tds[1].get_text(" ", strip=True)
+                    
+                    if title in ["イベント名", "開催期間/主な内容"] or "今までに開催された" in title or not date_text:
+                        continue
+                        
+                    a_tag = tr.find("a")
+                    href = a_tag.get("href") if a_tag else None
+                    url = (href if href.startswith("http") else BASE_URL + href) if href else None
+                    
+                    start, end = parse_date_text(date_text)
+                    if not start:
+                        continue
+                        
+                    events[title] = {
+                        "title": title,
+                        "url": url,
+                        "start": start,
+                        "end": end,
+                        "description": "",
+                        "type": "event"
+                    }
+    return events
+
+def parse_gacha_summary(html: str) -> dict:
+    soup = BeautifulSoup(html, "html.parser")
+    gachas = {}
     main_content = soup.find("article") or soup.find("div", class_="kamigame-layout-main") or soup
     
-    TARGET_H2 = ["メインストーリー最新話配信情報", "最新イベント情報", "最新ガチャ"]
-    in_target_section = False
-    
+    in_gacha = False
     for tag in main_content.find_all(['h2', 'table']):
         if tag.name == 'h2':
             text = tag.get_text(strip=True)
-            in_target_section = any(target in text for target in TARGET_H2)
-        elif tag.name == 'table' and in_target_section:
+            in_gacha = ("最新ガチャ" in text)
+        elif tag.name == 'table' and in_gacha:
             for a in tag.find_all("a"):
                 href = a.get("href", "")
                 if "/page/" in href and href.endswith(".html"):
                     url = href if href.startswith("http") else BASE_URL + href
                     title = a.get_text(strip=True)
                     
-                    bad_keywords = [
-                        "家具", "引くべき", "評価", "ステータス", "グッズ", 
-                        "編成", "ミッション", "ボイス", "プロフィール",
-                        "攻略チャート", "効率的な進め方"
-                    ]
-                    if re.match(r"^Chapter\d+$", title, re.IGNORECASE):
+                    bad = ["評価", "ステータス", "引くべき", "家具"]
+                    if any(b in title for b in bad):
                         continue
-                    if any(bad in title for bad in bad_keywords):
-                        continue
+                        
+                    gachas[title] = {
+                        "title": title,
+                        "url": url,
+                        "start": None,
+                        "end": None,
+                        "description": "",
+                        "type": "gacha"
+                    }
+    return gachas
 
-                    if url not in links_data or not links_data[url]:
-                        links_data[url] = title
-
-    return links_data
-
-def fetch_article_detail(url: str) -> dict:
-    detail = {
-        "title": "未知標題",
-        "description": "",
-        "start": None,
-        "end": None
-    }
+def fetch_description(url: str) -> str:
     try:
         html = fetch_html(url)
         soup = BeautifulSoup(html, "html.parser")
-        
-        h1 = soup.find("h1")
-        if h1:
-            for span in h1.find_all("span"):
-                span.decompose()
-            detail["title"] = h1.get_text(strip=True)
-        else:
-            title_tag = soup.find("title")
-            if title_tag:
-                detail["title"] = title_tag.get_text(strip=True).replace(" - 神ゲー攻略", "")
-                
         content = soup.find("article") or soup.find("div", class_=re.compile("article|entry|content"))
         if content:
             for p in content.find_all(["p", "li"]):
                 text = p.get_text(" ", strip=True)
                 if len(text) >= 20:
-                    detail["description"] = text[:400] + ("…" if len(text) > 400 else "")
-                    break
-                    
+                    return text[:400] + ("…" if len(text) > 400 else "")
+    except Exception as e:
+        print(f"  [警告] 無法抓取簡述 {url}: {e}", file=sys.stderr)
+    return ""
+
+def extract_dates_from_detail(url: str):
+    # 專門為 Gacha 抓取日期
+    try:
+        html = fetch_html(url)
+        soup = BeautifulSoup(html, "html.parser")
+        content = soup.find("article") or soup.find("div", class_=re.compile("article|entry|content"))
         if content:
             for table in content.find_all("table"):
                 for tr in table.find_all("tr"):
                     text = tr.get_text(" ", strip=True)
-                    matches = JP_DATETIME_RE.findall(text)
+                    matches = re.findall(r"(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日[（\(][^）\)]{1,3}[）\)]\s*(\d{1,2})[:：](\d{2})", text)
                     if matches:
                         now = datetime.now(timezone.utc)
                         def to_iso(y, m, d, h, mi):
                             year = int(y) if y else now.year
                             try:
-                                # 日本時間 UTC+9
                                 dt = datetime(year, int(m), int(d), int(h), int(mi), tzinfo=timezone(timedelta(hours=9)))
                                 return dt.isoformat()
                             except ValueError:
                                 return None
-
-                        detail["start"] = to_iso(*matches[0])
-                        if len(matches) >= 2:
-                            detail["end"] = to_iso(*matches[1])
-                        break 
-                if detail["start"]:
-                    break
-
-    except Exception as e:
-        print(f"  [警告] 無法抓取詳情 {url}: {e}", file=sys.stderr)
-        
-    return detail
+                        
+                        start = to_iso(*matches[0])
+                        end = to_iso(*matches[1]) if len(matches) >= 2 else None
+                        return start, end
+    except Exception:
+        pass
+    return None, None
 
 # ---------------------------------------------------------------------------
 # 狀態與行事曆管理
@@ -166,7 +230,7 @@ def save_state(state: dict) -> None:
 
 def generate_ics(state: dict):
     cal = Calendar()
-    for url, info in state.items():
+    for key, info in state.items():
         if info.get("start"):
             e = Event()
             e.name = info.get("title", "未知活動")
@@ -174,13 +238,17 @@ def generate_ics(state: dict):
             if info.get("end"):
                 e.end = info["end"]
             else:
-                # 若無結束時間，預設設定為 1 小時長度
                 e.end = (datetime.fromisoformat(info["start"]) + timedelta(hours=1)).isoformat()
             
             desc = info.get("description", "")
-            e.description = f"{desc}\n\n詳細連結: {url}"
-            e.url = url
-            e.uid = url.replace("https://kamigame.jp/", "").replace("/", "_")
+            url = info.get("url")
+            if url:
+                e.description = f"{desc}\n\n詳細連結: {url}"
+                e.url = url
+            else:
+                e.description = f"{desc}\n\n(此預告目前尚無詳細連結)"
+                
+            e.uid = info.get("title").replace(" ", "_")
             cal.events.add(e)
             
     with open(ICS_FILE, 'w', encoding='utf-8') as f:
@@ -199,10 +267,11 @@ def push_to_discord(events: list[dict]) -> None:
     for ev in events:
         embed = {
             "title": f"🎉 {ev['title']}",
-            "url": ev["url"],
             "color": 0x8AA8C6,
             "footer": {"text": "扭曲仙境 JP 服情報 (kamigame.jp)"},
         }
+        if ev.get("url"):
+            embed["url"] = ev["url"]
         
         start_str = datetime.fromisoformat(ev["start"]).strftime("%Y-%m-%d %H:%M") if ev.get("start") else "未知"
         end_str = datetime.fromisoformat(ev["end"]).strftime("%Y-%m-%d %H:%M") if ev.get("end") else "未知"
@@ -235,52 +304,62 @@ def main():
         sys.stdout.reconfigure(encoding='utf-8')
         sys.stderr.reconfigure(encoding='utf-8')
     now = datetime.now(timezone.utc)
-    print(f"[{now.isoformat()}] 開始抓取 {SUMMARY_URL} ...")
+    print(f"[{now.isoformat()}] 開始抓取資料 ...")
 
-    html = fetch_html(SUMMARY_URL)
-    soup = BeautifulSoup(html, "html.parser")
-
-    links_data = parse_summary_links(soup)
-    print(f"總結頁面共找到 {len(links_data)} 個文章連結。")
+    # 1. 抓取 Events Index (主線與活動)
+    html_idx = fetch_html(EVENTS_INDEX_URL)
+    events = parse_events_index(html_idx)
+    
+    # 2. 抓取 Summary Page (抽卡)
+    html_sum = fetch_html(SUMMARY_URL)
+    gachas = parse_gacha_summary(html_sum)
+    
+    # 合併兩者
+    all_events = {**events, **gachas}
+    print(f"共擷取到 {len(all_events)} 筆活動與抽卡資料 (歷史總計)。")
     
     state = load_state()
-    new_urls = [url for url in links_data.keys() if url not in state]
+    events_to_push = []
+    
+    # 針對沒有存在 state 中的新事件處理
+    for title, ev in all_events.items():
+        if title in state:
+            continue
             
-    if new_urls:
-        print(f"偵測到 {len(new_urls)} 個新情報，開始抓取詳情...")
-        events_to_push = []
-        for i, url in enumerate(new_urls):
-            print(f"  ({i+1}/{len(new_urls)}) 抓取詳情: {url}")
-            detail = fetch_article_detail(url)
-            detail["url"] = url
-            
-            if detail["title"] == "未知標題" and links_data[url]:
-                detail["title"] = links_data[url]
+        # 避免處理太久遠的歷史資料（如果 state 剛好被清空）
+        if ev.get("start"):
+            try:
+                start_dt = datetime.fromisoformat(ev["start"])
+                # 如果是超過 60 天前的舊活動，就只加入 state 不推播
+                if now - start_dt > timedelta(days=60):
+                    state[title] = {"discovered_at": now.isoformat(), **ev}
+                    continue
+            except ValueError:
+                pass
                 
-            bad_keywords = [
-                "家具", "引くべき", "評価", "ステータス", "グッズ", 
-                "編成", "ミッション", "ボイス", "プロフィール",
-                "攻略チャート", "効率的な進め方"
-            ]
-            if re.match(r"^Chapter\d+$", detail["title"], re.IGNORECASE) or any(bad in detail["title"] for bad in bad_keywords):
-                print(f"  [略過] 偵測到非活動內容: {detail['title']}")
-                state[url] = {"discovered_at": now.isoformat(), "title": detail["title"]}
-                time.sleep(REQUEST_INTERVAL_SEC)
-                continue
-                
-            events_to_push.append(detail)
-            
-            # 將詳細資訊寫入 state 以供 ICS 產生使用
-            state[url] = {
-                "discovered_at": now.isoformat(),
-                "title": detail["title"],
-                "description": detail.get("description", ""),
-                "start": detail.get("start"),
-                "end": detail.get("end")
-            }
+        print(f"  偵測到新情報: {title}")
+        
+        # 如果是 Gacha，補齊日期
+        if ev["type"] == "gacha" and ev["url"]:
+            start, end = extract_dates_from_detail(ev["url"])
+            ev["start"] = start
+            ev["end"] = end
             time.sleep(REQUEST_INTERVAL_SEC)
             
-        print("開始推送 Discord ...")
+        # 如果有 URL，補齊簡述
+        if ev.get("url"):
+            ev["description"] = fetch_description(ev["url"])
+            time.sleep(REQUEST_INTERVAL_SEC)
+            
+        events_to_push.append(ev)
+        
+        state[title] = {
+            "discovered_at": now.isoformat(),
+            **ev
+        }
+
+    if events_to_push:
+        print(f"開始推送 {len(events_to_push)} 筆新情報到 Discord ...")
         push_to_discord(events_to_push)
     else:
         print("沒有新情報，不需推送。")
