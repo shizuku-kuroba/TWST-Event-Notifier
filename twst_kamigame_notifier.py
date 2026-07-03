@@ -274,11 +274,12 @@ def generate_ics(state: dict):
 # Discord 推送
 # ---------------------------------------------------------------------------
 
-def push_to_discord(events: list[dict]) -> None:
+def push_to_discord(events: list[dict]) -> set[str]:
     if not DISCORD_WEBHOOK_URL:
         print("[錯誤] 未設定 TWST_DISCORD_WEBHOOK_URL 環境變數，略過推送。", file=sys.stderr)
-        return
+        return set()
 
+    pushed_titles = set()
     for ev in events:
         embed = {
             "title": f"🎉 {ev['title']}",
@@ -300,15 +301,23 @@ def push_to_discord(events: list[dict]) -> None:
         if ev.get("description"):
             embed["description"] = ev["description"]
 
-        resp = requests.post(
-            DISCORD_WEBHOOK_URL, json={"embeds": [embed]}, timeout=15
-        )
+        try:
+            resp = requests.post(
+                DISCORD_WEBHOOK_URL, json={"embeds": [embed]}, timeout=15
+            )
+        except requests.RequestException as e:
+            print(f"[錯誤] 推送失敗: {ev['title']} -> {e}", file=sys.stderr)
+            continue
+
         if resp.status_code >= 300:
             print(f"[錯誤] 推送失敗 ({resp.status_code}): {ev['title']} -> {resp.text}", file=sys.stderr)
         else:
+            pushed_titles.add(ev["title"])
             print(f"[已推送] {ev['title']}")
 
         time.sleep(REQUEST_INTERVAL_SEC)
+
+    return pushed_titles
 
 # ---------------------------------------------------------------------------
 # 主流程
@@ -367,15 +376,19 @@ def main():
             time.sleep(REQUEST_INTERVAL_SEC)
             
         events_to_push.append(ev)
-        
-        state[title] = {
-            "discovered_at": now.isoformat(),
-            **ev
-        }
 
     if events_to_push:
         print(f"開始推送 {len(events_to_push)} 筆新情報到 Discord ...")
-        push_to_discord(events_to_push)
+        pushed_titles = push_to_discord(events_to_push)
+        for ev in events_to_push:
+            title = ev["title"]
+            if title not in pushed_titles:
+                continue
+
+            state[title] = {
+                "discovered_at": now.isoformat(),
+                **ev
+            }
     else:
         print("沒有新情報，不需推送。")
 
