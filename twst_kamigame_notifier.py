@@ -82,12 +82,15 @@ def parse_summary_links(soup: BeautifulSoup) -> dict:
                 url = href if href.startswith("http") else BASE_URL + href
                 title = a.get_text(strip=True)
                 
-                # 過濾掉非主活動的衍生資訊或卡池
+                # 過濾掉非主活動的內部細節或衍生資訊（保留抽卡、主線、活動本身）
                 bad_keywords = [
-                    "家具", "ガチャ", "引くべき", "評価", "ステータス", 
-                    "グッズ", "章", "Chapter", "召喚", "PU", "編成", 
-                    "ミッション", "ボイス", "プロフィール"
+                    "家具", "引くべき", "評価", "ステータス", "グッズ", 
+                    "編成", "ミッション", "ボイス", "プロフィール",
+                    "攻略チャート", "効率的な進め方"
                 ]
+                # 完全符合 "Chapter數字" 的通常是純關卡攻略，略過
+                if re.match(r"^Chapter\d+$", title, re.IGNORECASE):
+                    continue
                 if any(bad in title for bad in bad_keywords):
                     continue
 
