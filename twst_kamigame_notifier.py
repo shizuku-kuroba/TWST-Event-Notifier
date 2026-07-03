@@ -259,6 +259,18 @@ def main():
             if detail["title"] == "未知標題" and links_data[url]:
                 detail["title"] = links_data[url]
                 
+            # 再次過濾（因為有時總結頁的超連結是圖片沒有文字，必須靠抓下來的真實標題過濾）
+            bad_keywords = [
+                "家具", "引くべき", "評価", "ステータス", "グッズ", 
+                "編成", "ミッション", "ボイス", "プロフィール",
+                "攻略チャート", "効率的な進め方"
+            ]
+            if re.match(r"^Chapter\d+$", detail["title"], re.IGNORECASE) or any(bad in detail["title"] for bad in bad_keywords):
+                print(f"  [略過] 偵測到非活動內容: {detail['title']}")
+                state[url] = {"discovered_at": now.isoformat(), "title": detail["title"]}
+                time.sleep(REQUEST_INTERVAL_SEC)
+                continue
+                
             events_to_push.append(detail)
             state[url] = {"discovered_at": now.isoformat(), "title": detail["title"]}
             time.sleep(REQUEST_INTERVAL_SEC)
