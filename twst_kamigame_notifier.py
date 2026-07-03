@@ -39,7 +39,7 @@ HEADERS = {
 }
 
 REQUEST_INTERVAL_SEC = 1.0
-ICS_PAST_WINDOW_DAYS = 30
+ICS_PAST_WINDOW_DAYS = 365
 ICS_FUTURE_WINDOW_DAYS = 210
 
 # ---------------------------------------------------------------------------
