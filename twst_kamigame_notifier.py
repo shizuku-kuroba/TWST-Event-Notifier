@@ -81,6 +81,16 @@ def parse_summary_links(soup: BeautifulSoup) -> dict:
             if "/page/" in href and href.endswith(".html"):
                 url = href if href.startswith("http") else BASE_URL + href
                 title = a.get_text(strip=True)
+                
+                # 過濾掉非主活動的衍生資訊或卡池
+                bad_keywords = [
+                    "家具", "ガチャ", "引くべき", "評価", "ステータス", 
+                    "グッズ", "章", "Chapter", "召喚", "PU", "編成", 
+                    "ミッション", "ボイス", "プロフィール"
+                ]
+                if any(bad in title for bad in bad_keywords):
+                    continue
+
                 # 避免覆蓋已有標題
                 if url not in links_data or not links_data[url]:
                     links_data[url] = title
