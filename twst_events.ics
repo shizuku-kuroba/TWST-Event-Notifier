@@ -124,6 +124,14 @@ SUMMARY:強化合宿サバナクロー編
 UID:強化合宿サバナクロー編
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:ツイステのレオナ誕生日ガチャ（バースデーガチャ）は引くべきか？をご紹介！引けるレオナ（くつろぎマイルーム）の性能、関連家具についても解説しているので、ツイステッドワンダーランド攻略の参考にどうぞ。\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/379659970397920826.html
+DTEND:20260730T055900Z
+DTSTART:20260724T070000Z
+SUMMARY:復刻くつろぎレオナ
+UID:復刻くつろぎレオナ
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/379659970397920826.html
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/206134313446591027.html
 DTEND:20250423T055900Z
 DTSTART:20250417T070000Z
@@ -728,6 +736,14 @@ DTEND:20201231T145900Z
 DTSTART:20201221T070000Z
 SUMMARY:ウィンターホリデーギフトキャンペーン （特別ログインボーナス）
 UID:ウィンターホリデーギフトキャンペーン_（特別ログインボーナス）
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ツイステのレオナ誕生日ガチャ（バースデーガチャ）は引くべきか？をご紹介！引けるレオナ（ラ・ボンボニエール）の性能、関連家具についても解説しているので、ツイステッドワンダーランド攻略の参考にどうぞ。\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/432308077232957513.html
+DTEND:20260730T055900Z
+DTSTART:20260724T070000Z
+SUMMARY:ボンボニエールレオナ
+UID:ボンボニエールレオナ
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/432308077232957513.html
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n\n(此預告目前尚無詳細連結)
@@ -1369,6 +1385,14 @@ DTSTART:20260626T070000Z
 SUMMARY:8章Chapter3
 UID:8章Chapter3
 URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/428073518433874702.html
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ツイステのマスターシェフ限定衣装カード追加キャンペーンを解説。キャンペーンログインボーナスや、マスターシェフメダルの使い道などをまとめています。ツイステッドワンダーランド攻略の参考にどうぞ。\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/432344824536893326.html
+DTEND:20260803T055900Z
+DTSTART:20260724T070000Z
+SUMMARY:マスターシェフ 限定カード追加キャンペーン
+UID:マスターシェフ_限定カード追加キャンペーン
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/432344824536893326.html
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/220250109173080909.html
@@ -2026,6 +2050,14 @@ DTEND:20200728T055900Z
 DTSTART:20200722T070000Z
 SUMMARY:強化合宿ハーツラビュル編 第1弾
 UID:強化合宿ハーツラビュル編_第1弾
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ツイステのレオナ歴代誕生日ガチャ（バースデーガチャ）は引くべきか？をご紹介！おめかしレオナやユニオンレオナ、ブルームレオナ、プラチナレオナの性能、関連家具についても解説しているので、ツイステッドワンダーランド攻略の参考にどうぞ。\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/432313963905032344.html
+DTEND:20260730T055900Z
+DTSTART:20260724T070000Z
+SUMMARY:復刻レオナ歴代BD
+UID:復刻レオナ歴代BD
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/432313963905032344.html
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/395060800559035193.html
