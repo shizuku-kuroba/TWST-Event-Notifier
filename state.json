@@ -6,7 +6,8 @@
     "start": "2020-03-31T17:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cbe08a313668103f7a3d998dc31ed5e68296bb6c@twst-kamigame-notifier"
   },
   "3章中編|2020-04-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -15,7 +16,8 @@
     "start": "2020-04-07T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-72a202a96b4874704a660012a748367d48675bfe@twst-kamigame-notifier"
   },
   "3章後編|2020-04-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -24,7 +26,8 @@
     "start": "2020-04-14T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7a28e653fc8af27be7a1c8fe8267f8a7191f10ef@twst-kamigame-notifier"
   },
   "強化合宿オクタヴィネル編|2020-04-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -33,7 +36,8 @@
     "start": "2020-04-14T16:00:00+09:00",
     "end": "2020-04-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-130205aad8f25ed299fd5e18007d240959aefce3@twst-kamigame-notifier"
   },
   "ディアソムニア 登場キャンペーン第1弾|2020-04-21T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -42,7 +46,8 @@
     "start": "2020-04-21T16:00:00+09:00",
     "end": "2020-04-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-d7853c50ebab61174f0288bd81bfa3752a62f51f@twst-kamigame-notifier"
   },
   "ハッピービーンズデー|2020-04-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -51,7 +56,8 @@
     "start": "2020-04-28T16:00:00+09:00",
     "end": "2020-05-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4ccce17c84b7904888e01991d1588078734463a3@twst-kamigame-notifier"
   },
   "4章前編|2020-05-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -60,7 +66,8 @@
     "start": "2020-05-12T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e455fe4375299a88c95b8774f4a149b7064d2637@twst-kamigame-notifier"
   },
   "4章中編|2020-05-19T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -69,7 +76,8 @@
     "start": "2020-05-19T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-bfea764af48c228822f7b562ee594883dfc1f706@twst-kamigame-notifier"
   },
   "ディアソムニア 登場キャンペーン第2弾|2020-05-25T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -78,7 +86,8 @@
     "start": "2020-05-25T16:00:00+09:00",
     "end": "2020-06-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a0c30143300ec8f0d2a686c906309b68c2fa9c32@twst-kamigame-notifier"
   },
   "4章後編|2020-06-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -87,7 +96,8 @@
     "start": "2020-06-01T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a30e71e6b4005d986e14cc4352e97e051991c17d@twst-kamigame-notifier"
   },
   "強化合宿スカラビア編|2020-06-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -96,7 +106,8 @@
     "start": "2020-06-01T16:00:00+09:00",
     "end": "2020-06-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3dcad0b5c96ff5a59434faae0c884a871d9c4827@twst-kamigame-notifier"
   },
   "フェアリーガラ|2020-06-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -105,7 +116,8 @@
     "start": "2020-06-10T16:00:00+09:00",
     "end": "2020-06-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-72455d30f04237019b6e9b6842101c0950fde70c@twst-kamigame-notifier"
   },
   "強化合宿サバナクロー編|2020-06-29T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -114,7 +126,8 @@
     "start": "2020-06-29T16:00:00+09:00",
     "end": "2020-07-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-364eb4bc9299c24bdfac8df8738934cc5bd761a9@twst-kamigame-notifier"
   },
   "ゴースト・マリッジ|2020-07-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -123,7 +136,8 @@
     "start": "2020-07-07T16:00:00+09:00",
     "end": "2020-07-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-080df6983d2570dd07a51c1fff670285de127db9@twst-kamigame-notifier"
   },
   "強化合宿ハーツラビュル編 第1弾|2020-07-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -132,7 +146,8 @@
     "start": "2020-07-22T16:00:00+09:00",
     "end": "2020-07-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-263548a35c12a3271876fefb85d8678381cf5105@twst-kamigame-notifier"
   },
   "第1回NRC統一試験|2020-07-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -141,7 +156,8 @@
     "start": "2020-07-28T16:00:00+09:00",
     "end": "2020-08-04T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2326bf3fb314b6fd30a68e204721021b20779363@twst-kamigame-notifier"
   },
   "強化合宿ハーツラビュル編 第2弾|2020-08-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -150,7 +166,8 @@
     "start": "2020-08-04T16:00:00+09:00",
     "end": "2020-08-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b4f3b2704492b1c1871dcbb7c3924deb8061e525@twst-kamigame-notifier"
   },
   "強化合宿オクタヴィネル編|2020-08-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -159,7 +176,8 @@
     "start": "2020-08-17T16:00:00+09:00",
     "end": "2020-08-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-357c07feadf9c89441e09716bf8a0a04597d5059@twst-kamigame-notifier"
   },
   "星に願いを 〜Dance and Wishes〜|2020-08-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -168,7 +186,8 @@
     "start": "2020-08-28T16:00:00+09:00",
     "end": "2020-09-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-903f6d1e4e8f0da6ee60af1639f2b490b25c6f2f@twst-kamigame-notifier"
   },
   "ジャミル バースデーキャンペーン|2020-09-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -177,7 +196,8 @@
     "start": "2020-09-11T16:00:00+09:00",
     "end": "2020-09-18T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cae51d195f69da8fc39615cb009d197036cd5275@twst-kamigame-notifier"
   },
   "5章前編1配信|2020-09-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -186,7 +206,8 @@
     "start": "2020-09-14T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-25185ffd5a9e0072c83d552db4ab7c18e6e36e1c@twst-kamigame-notifier"
   },
   "5章配信キャンペーン|2020-09-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -195,7 +216,8 @@
     "start": "2020-09-14T16:00:00+09:00",
     "end": "2020-09-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c8234cd390325afd6b04c12ffb0b770bbb79334f@twst-kamigame-notifier"
   },
   "エース バースデーキャンペーン|2020-09-18T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -204,7 +226,8 @@
     "start": "2020-09-18T16:00:00+09:00",
     "end": "2020-09-25T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-921016f3c0a85f0c2e625abf698f2fd7b643904f@twst-kamigame-notifier"
   },
   "5章前編2配信|2020-09-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -213,7 +236,8 @@
     "start": "2020-09-28T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4aae559c60d35b118ea7352e2c4a6d927e9aa090@twst-kamigame-notifier"
   },
   "強化合宿スカラビア編|2020-10-06T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -222,7 +246,8 @@
     "start": "2020-10-06T16:00:00+09:00",
     "end": "2020-10-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3f57b35a6b47505c9d5d506a79a175c7844a5621@twst-kamigame-notifier"
   },
   "ジャック バースデーキャンペーン|2020-10-09T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -231,7 +256,8 @@
     "start": "2020-10-09T16:00:00+09:00",
     "end": "2020-10-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e1233bd564935041df31b26457d2ef07d5d668c8@twst-kamigame-notifier"
   },
   "スケアリー・モンスターズ！ 第1章「注目カレッジ！」前編|2020-10-14T17:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -240,7 +266,8 @@
     "start": "2020-10-14T17:00:00+09:00",
     "end": "2020-11-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b84e2198bc38705649b4fbc07786bc16ed095448@twst-kamigame-notifier"
   },
   "スケアリー・モンスターズ！ 第1章「注目カレッジ！」後編|2020-10-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -249,7 +276,8 @@
     "start": "2020-10-23T16:00:00+09:00",
     "end": "2020-11-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-dec2e13635cc48476fbb24f264af7f4e218c3928@twst-kamigame-notifier"
   },
   "トレイ バースデーキャンペーン|2020-10-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -258,7 +286,8 @@
     "start": "2020-10-23T16:00:00+09:00",
     "end": "2020-10-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e7b7f3536ce82478d9a8820b897f01ddc72d34ac@twst-kamigame-notifier"
   },
   "スケアリー・モンスターズ！ 第2章「暴走モンスター！」&第3章「騒乱トリック！」|2020-10-29T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -267,7 +296,8 @@
     "start": "2020-10-29T16:00:00+09:00",
     "end": "2020-11-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a8d6e4394d45bbad30573ec476fa30b3b9cc18f5@twst-kamigame-notifier"
   },
   "ジェイド&フロイド バースデーキャンペーン|2020-11-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -276,7 +306,8 @@
     "start": "2020-11-04T16:00:00+09:00",
     "end": "2020-11-10T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3549820fb5931c532dde397f56fb5e8771202afc@twst-kamigame-notifier"
   },
   "スケアリー・モンスターズ！ 第4章「絶叫ナイト！」|2020-11-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -285,7 +316,8 @@
     "start": "2020-11-04T16:00:00+09:00",
     "end": "2020-11-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cf7b193d3cd509d4aad26735cdaaf6dc8db5972a@twst-kamigame-notifier"
   },
   "スケアリー・モンスターズ！ 第5章「終幕ハロウィーン！」|2020-11-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -294,7 +326,8 @@
     "start": "2020-11-12T16:00:00+09:00",
     "end": "2020-11-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7128afe7e696b41a8847a566253ace4ad1f1fbfe@twst-kamigame-notifier"
   },
   "ルーク バースデーキャンペーン|2020-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -303,7 +336,8 @@
     "start": "2020-12-01T16:00:00+09:00",
     "end": "2020-12-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6f61a83de9d30ce793388e948cf06f16ecf00698@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2020-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -312,7 +346,8 @@
     "start": "2020-12-01T16:00:00+09:00",
     "end": "2020-12-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-585e2d017c9890ac14c1af4d7a236d897c3a5233@twst-kamigame-notifier"
   },
   "第2回NRC統一試験|2020-12-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -321,7 +356,8 @@
     "start": "2020-12-14T16:00:00+09:00",
     "end": "2020-12-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-028076c4bcb2294612bdec0a9cb4bf5e41521780@twst-kamigame-notifier"
   },
   "イデア バースデーキャンペーン|2020-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -330,7 +366,8 @@
     "start": "2020-12-17T16:00:00+09:00",
     "end": "2020-12-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1273fef30e0b926e5c002f9b0174a90b86a42728@twst-kamigame-notifier"
   },
   "ウィンターホリデーギフトキャンペーン （特別ログインボーナス）|2020-12-21T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -339,7 +376,8 @@
     "start": "2020-12-21T16:00:00+09:00",
     "end": "2020-12-31T23:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e5074fc5e09e0df0524bb7988d304193d0e08797@twst-kamigame-notifier"
   },
   "5章中編|2020-12-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -348,7 +386,8 @@
     "start": "2020-12-28T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e26adf672ba077176355e2f0fd57f0a6a3554637@twst-kamigame-notifier"
   },
   "ニューイヤーキャンペーン|2020-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -357,7 +396,8 @@
     "start": "2020-12-31T16:00:00+09:00",
     "end": "2021-01-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-8fda57953b5a4b8861ea6898371860430ff7d180@twst-kamigame-notifier"
   },
   "リリア バースデーキャンペーン|2020-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -366,7 +406,8 @@
     "start": "2020-12-31T16:00:00+09:00",
     "end": "2021-01-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-992aefb639083904a26b3da0cb4a8aa07705f7ef@twst-kamigame-notifier"
   },
   "5章後編1|2021-01-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -375,7 +416,8 @@
     "start": "2021-01-12T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-97c59bd9b01972622e8c61bc890a0df563c2f1e0@twst-kamigame-notifier"
   },
   "マレウス バースデーキャンペーン|2021-01-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -384,7 +426,8 @@
     "start": "2021-01-15T16:00:00+09:00",
     "end": "2021-01-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3186d88b2864eb429bb7b6fdf9c08735a4b01459@twst-kamigame-notifier"
   },
   "5章後編2|2021-01-25T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -393,7 +436,8 @@
     "start": "2021-01-25T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-585ab72c161feaf47c290ef4c811b2cb50611c1b@twst-kamigame-notifier"
   },
   "強化合宿ポムフィオーレ編|2021-01-29T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -402,7 +446,8 @@
     "start": "2021-01-29T16:00:00+09:00",
     "end": "2021-02-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6ff7e3626a0dc6cc9fce8ef066cf1e6e5cec6f2a@twst-kamigame-notifier"
   },
   "ケイト バースデーキャンペーン|2021-02-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -411,7 +456,8 @@
     "start": "2021-02-03T16:00:00+09:00",
     "end": "2021-02-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b0b10ae85edb0342586340d51f5c5d957f385860@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜肉の至福〜|2021-02-12T17:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -420,7 +466,8 @@
     "start": "2021-02-12T17:00:00+09:00",
     "end": "2021-02-25T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-70b3c0dfdff3f1f2eae19d0fa6a8f57e55add46b@twst-kamigame-notifier"
   },
   "アズール バースデーキャンペーン|2021-02-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -429,7 +476,8 @@
     "start": "2021-02-22T16:00:00+09:00",
     "end": "2021-02-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b0c620bfd625a57329cb54cdee6671dedc1ee637@twst-kamigame-notifier"
   },
   "第3回NRC統一試験|2021-03-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -438,7 +486,8 @@
     "start": "2021-03-01T16:00:00+09:00",
     "end": "2021-03-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-01111485370f498684629dea6195328d839dd481@twst-kamigame-notifier"
   },
   "1周年アニバーサリー|2021-03-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -447,7 +496,8 @@
     "start": "2021-03-08T16:00:00+09:00",
     "end": "2021-03-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1856fdb3ec709a7f395f244c3c73195dc9e965d0@twst-kamigame-notifier"
   },
   "セベク バースデーキャンペーン|2021-03-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -456,7 +506,8 @@
     "start": "2021-03-15T16:00:00+09:00",
     "end": "2021-03-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-24b31aca24a661aa26e14381bf3c9a8a9eebaec2@twst-kamigame-notifier"
   },
   "バルガスCAMP! 〜スプリングハプニング〜|2021-03-25T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -465,7 +516,8 @@
     "start": "2021-03-25T16:00:00+09:00",
     "end": "2021-04-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-aadc032b2bebe96e3a2294f4342f365804b60bbb@twst-kamigame-notifier"
   },
   "ヴィル バースデーキャンペーン|2021-04-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -474,7 +526,8 @@
     "start": "2021-04-08T16:00:00+09:00",
     "end": "2021-04-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6780eb259391ad6bd1d41e5bb249ba07f2ff64ae@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2021-04-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -483,7 +536,8 @@
     "start": "2021-04-12T16:00:00+09:00",
     "end": "2021-04-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-aa9861e832bcb5bce919f76a0e15e2325b348062@twst-kamigame-notifier"
   },
   "ラギー バースデーキャンペーン|2021-04-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -492,7 +546,8 @@
     "start": "2021-04-16T16:00:00+09:00",
     "end": "2021-04-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-8517045b1bebb8f764b9a127c9affd3fa9faae0b@twst-kamigame-notifier"
   },
   "復刻 ハッピービーンズデー|2021-04-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -501,7 +556,8 @@
     "start": "2021-04-20T16:00:00+09:00",
     "end": "2021-05-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4374f0089458e89f4b0df430405d5eb70f2344d6@twst-kamigame-notifier"
   },
   "エペル バースデーキャンペーン|2021-05-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -510,7 +566,8 @@
     "start": "2021-05-05T16:00:00+09:00",
     "end": "2021-05-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3b5c53c5e749279a4aec03332f7598a2a8708edd@twst-kamigame-notifier"
   },
   "ハッピービーンズデー 〜竪琴無用の場外乱闘〜|2021-05-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -519,7 +576,8 @@
     "start": "2021-05-10T16:00:00+09:00",
     "end": "2021-05-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-5cb5508b433c827be145d322b0bc8861a60e4930@twst-kamigame-notifier"
   },
   "シルバー バースデーキャンペーン|2021-05-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -528,7 +586,8 @@
     "start": "2021-05-14T16:00:00+09:00",
     "end": "2021-05-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b32ee4f7d1019613230578cc8e0e7ce66ce0ab8b@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜辛味のふるさと〜|2021-05-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -537,7 +596,8 @@
     "start": "2021-05-31T16:00:00+09:00",
     "end": "2021-06-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-afb3811bfbf0e6a788be7b8dd9070eed49ac7fa0@twst-kamigame-notifier"
   },
   "デュース バースデーキャンペーン|2021-06-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -546,7 +606,8 @@
     "start": "2021-06-02T16:00:00+09:00",
     "end": "2021-06-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-538a6454f1b8ffd1445b46f7765d4fb83b21d0b2@twst-kamigame-notifier"
   },
   "第4回NRC統一試験|2021-06-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -555,7 +616,8 @@
     "start": "2021-06-16T16:00:00+09:00",
     "end": "2021-06-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fb22302bfb0245312ba79c1d1ca863bf023d4fb9@twst-kamigame-notifier"
   },
   "カリム バースデーキャンペーン|2021-06-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -564,7 +626,8 @@
     "start": "2021-06-24T16:00:00+09:00",
     "end": "2021-06-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-74e62b7f34eaa1198d08f851a4e490eccfb558d8@twst-kamigame-notifier"
   },
   "復刻 ゴースト・マリッジ|2021-06-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -573,7 +636,8 @@
     "start": "2021-06-24T16:00:00+09:00",
     "end": "2021-07-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-62468c80061be1dab732c9c8f541d8f16f198773@twst-kamigame-notifier"
   },
   "熱砂の国の アリアーブ・ナーリヤ|2021-07-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -582,7 +646,8 @@
     "start": "2021-07-12T16:00:00+09:00",
     "end": "2021-08-04T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-730d89e7bd98537bd34f9b2d9fd13c7d50cee0b0@twst-kamigame-notifier"
   },
   "レオナ バースデーキャンペーン|2021-07-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -591,7 +656,8 @@
     "start": "2021-07-26T16:00:00+09:00",
     "end": "2021-08-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-81c9a234c3946fe87a474ada465aff0333a8ebc5@twst-kamigame-notifier"
   },
   "強化合宿ポムフィオーレ編|2021-08-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -600,7 +666,8 @@
     "start": "2021-08-04T16:00:00+09:00",
     "end": "2021-08-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-06738654a4312139eb9ed6497daeaf616f73a6c4@twst-kamigame-notifier"
   },
   "オルト バースデーキャンペーン|2021-08-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -609,7 +676,8 @@
     "start": "2021-08-13T16:00:00+09:00",
     "end": "2021-08-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a8e5c6385950da1e97146903f92438de8b3d0c82@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜豆と人生〜|2021-08-16T16:30:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -618,7 +686,8 @@
     "start": "2021-08-16T16:30:00+09:00",
     "end": "2021-08-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-68206a2fe5100516d705d89a69373545523f498f@twst-kamigame-notifier"
   },
   "リドル バースデーキャンペーン|2021-08-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -627,7 +696,8 @@
     "start": "2021-08-23T16:00:00+09:00",
     "end": "2021-08-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a8cd7b84872cad97e1af4872990559f698733e86@twst-kamigame-notifier"
   },
   "6章前編|2021-08-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -636,7 +706,8 @@
     "start": "2021-08-31T16:00:00+09:00",
     "end": "2021-09-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ae4a3b91c1b9b78201d0e349d799d7b8f6f4bb16@twst-kamigame-notifier"
   },
   "復刻ジャミル バースデーキャンペーン|2021-09-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -645,7 +716,8 @@
     "start": "2021-09-10T16:00:00+09:00",
     "end": "2021-09-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-febc739e99c01a9dc373dcffd379ed7b12062f66@twst-kamigame-notifier"
   },
   "復刻 スケアリー・モンスターズ！|2021-09-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -654,7 +726,8 @@
     "start": "2021-09-22T16:00:00+09:00",
     "end": "2021-10-18T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-9bb63dd56370f60a8a422661920eab3d6dc7d54d@twst-kamigame-notifier"
   },
   "復刻エース バースデーキャンペーン|2021-09-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -663,7 +736,8 @@
     "start": "2021-09-22T16:00:00+09:00",
     "end": "2021-09-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a35615cbef159eb61f064b91a0cf12e93b98144f@twst-kamigame-notifier"
   },
   "復刻ジャック バースデーキャンペーン|2021-10-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -672,7 +746,8 @@
     "start": "2021-10-08T16:00:00+09:00",
     "end": "2021-10-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-72d83021423faac2e85057bad1b77fe113f474a3@twst-kamigame-notifier"
   },
   "第5回NRC統一試験|2021-10-18T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -681,7 +756,8 @@
     "start": "2021-10-18T16:00:00+09:00",
     "end": "2021-10-27T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-78b2b25eb58f54ae4287ad001268fc33a320d664@twst-kamigame-notifier"
   },
   "復刻トレイ バースデーキャンペーン|2021-10-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -690,7 +766,8 @@
     "start": "2021-10-22T16:00:00+09:00",
     "end": "2021-10-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2b14cb715e9c4d82e63ec3db1aaeb51df8215090@twst-kamigame-notifier"
   },
   "続スケアリー・モンスターズ！ 第1章「真夜中エンドレス！」|2021-10-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -699,7 +776,8 @@
     "start": "2021-10-31T16:00:00+09:00",
     "end": "2021-12-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6fcb04582217c71c984719980452c8e1c9d4775d@twst-kamigame-notifier"
   },
   "復刻ジェイド バースデーキャンペーン|2021-11-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -708,7 +786,8 @@
     "start": "2021-11-04T16:00:00+09:00",
     "end": "2021-11-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-52c52987b9a2bd5dfeda700deb05acd40afcac78@twst-kamigame-notifier"
   },
   "復刻フロイド バースデーキャンペーン|2021-11-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -717,7 +796,8 @@
     "start": "2021-11-04T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f68c515df0169e531b6dbafe5e917b56dff64ed7@twst-kamigame-notifier"
   },
   "続スケアリー・モンスターズ！ 第2章「早々アイソレーション！」|2021-11-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -726,7 +806,8 @@
     "start": "2021-11-08T16:00:00+09:00",
     "end": "2021-11-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-d7b578a55c1ae1dcaee738a297fb663956cf186d@twst-kamigame-notifier"
   },
   "続スケアリー・モンスターズ！ 第3章「遭遇デンジャラス！」|2021-11-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -735,7 +816,8 @@
     "start": "2021-11-15T16:00:00+09:00",
     "end": "2021-11-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0ad92d5ed23f7febf611c075aa0726c45f64d27e@twst-kamigame-notifier"
   },
   "続スケアリー・モンスターズ！ 第4章「増殖デンジャラス！」|2021-11-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -744,7 +826,8 @@
     "start": "2021-11-22T16:00:00+09:00",
     "end": "2021-11-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e3669331e448edb13e6741ebadb6eaf9e6ddba4e@twst-kamigame-notifier"
   },
   "続スケアリー・モンスターズ！ 第5章「終幕ハロウィーン！」|2021-11-29T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -753,7 +836,8 @@
     "start": "2021-11-29T16:00:00+09:00",
     "end": "2021-12-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4da1f02b19dabde8a4238f7ec67eeb808020a783@twst-kamigame-notifier"
   },
   "復刻ルーク バースデーキャンペーン|2021-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -762,7 +846,8 @@
     "start": "2021-12-01T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3141a2b95c8d00b93e6c9755e4346fce6385341c@twst-kamigame-notifier"
   },
   "ウィンターホリデー キャンペーン|2021-12-06T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -771,7 +856,8 @@
     "start": "2021-12-06T16:00:00+09:00",
     "end": "2021-12-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6cbe945569fc2d2829c15d622c701c22a0fbb45f@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2021-12-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -780,7 +866,8 @@
     "start": "2021-12-13T16:00:00+09:00",
     "end": "2021-12-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-47004edec6a242a9434181f67548845040d6f72b@twst-kamigame-notifier"
   },
   "復刻イデア バースデーキャンペーン|2021-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -789,7 +876,8 @@
     "start": "2021-12-17T16:00:00+09:00",
     "end": "2021-12-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ca8dc4d8ce3227518d328ed4e4eb720dc47e18d7@twst-kamigame-notifier"
   },
   "6章中編1|2021-12-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -798,7 +886,8 @@
     "start": "2021-12-24T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-de8d406073a179c029ecfbeb9f619fe7ffc38979@twst-kamigame-notifier"
   },
   "強化合宿 イグニハイド編|2021-12-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -807,7 +896,8 @@
     "start": "2021-12-24T16:00:00+09:00",
     "end": "2021-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-adca7eb509a31bf676b6b29ee93db8eebe8b3e5f@twst-kamigame-notifier"
   },
   "ニューイヤーキャンペーン2022|2021-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -816,7 +906,8 @@
     "start": "2021-12-31T16:00:00+09:00",
     "end": "2022-01-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6b0ef6f508acef377da62d4ca9f04b5f20c11f18@twst-kamigame-notifier"
   },
   "復刻リリア バースデーキャンペーン|2021-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -825,7 +916,8 @@
     "start": "2021-12-31T16:00:00+09:00",
     "end": "2022-01-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0ca5533b0cb91cda022f958eecd999f978a8d720@twst-kamigame-notifier"
   },
   "正月イベント 「Sam's New Year Sale 2022」|2021-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -834,7 +926,8 @@
     "start": "2021-12-31T16:00:00+09:00",
     "end": "2022-01-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f4ce58a068c127e653ac0cc112d07017ecfe8173@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜魚の誘惑〜|2022-01-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -843,7 +936,8 @@
     "start": "2022-01-11T16:00:00+09:00",
     "end": "2022-01-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-791bde357cad0eb330feeec4ba56d46b04819ef6@twst-kamigame-notifier"
   },
   "復刻マレウス バースデーキャンペーン|2022-01-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -852,7 +946,8 @@
     "start": "2022-01-17T16:00:00+09:00",
     "end": "2022-01-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-75a1b57127b326eeef9647b573315fd185d181ee@twst-kamigame-notifier"
   },
   "豊作村のケルッカロト|2022-01-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -861,7 +956,8 @@
     "start": "2022-01-31T16:00:00+09:00",
     "end": "2022-02-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2a3208ee9f4d1e221195d96d3974b0058faf67b2@twst-kamigame-notifier"
   },
   "復刻ケイト バースデーキャンペーン|2022-02-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -870,7 +966,8 @@
     "start": "2022-02-03T16:00:00+09:00",
     "end": "2022-02-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b85686af8ed752bdb75723a054354423698d931d@twst-kamigame-notifier"
   },
   "復刻アズール バースデーキャンペーン|2022-02-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -879,7 +976,8 @@
     "start": "2022-02-22T16:00:00+09:00",
     "end": "2022-02-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-bb65043525a31d2fdc5761ad2f1d73e442a5041d@twst-kamigame-notifier"
   },
   "第6回NRC統一試験|2022-02-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -888,7 +986,8 @@
     "start": "2022-02-22T16:00:00+09:00",
     "end": "2022-03-03T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-85f408a5f090c98107380f1828c36055776dc08d@twst-kamigame-notifier"
   },
   "6章中編2|2022-03-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -897,7 +996,8 @@
     "start": "2022-03-03T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-36dbefec903a73849f8121b53b87ae6dd55e0be3@twst-kamigame-notifier"
   },
   "2周年アニバーサリー|2022-03-09T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -906,7 +1006,8 @@
     "start": "2022-03-09T16:00:00+09:00",
     "end": "2022-03-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-5ebc4c4ccccd847ff73bdfb9699823206461f7e8@twst-kamigame-notifier"
   },
   "復刻セベク バースデーキャンペーン|2022-03-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -915,7 +1016,8 @@
     "start": "2022-03-16T16:00:00+09:00",
     "end": "2022-03-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-94e066be194515d876fcdf35e6128cbee78b14ee@twst-kamigame-notifier"
   },
   "6章後編1|2022-03-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -924,7 +1026,8 @@
     "start": "2022-03-24T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a9ba90dc20f3a877e04a64bc8d70742d99745ea8@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜卵の真髄〜|2022-04-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -933,7 +1036,8 @@
     "start": "2022-04-04T16:00:00+09:00",
     "end": "2022-04-18T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a01808f3748c3d87d41c4a60bdf58c9e3a399985@twst-kamigame-notifier"
   },
   "復刻ヴィル バースデーキャンペーン|2022-04-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -942,7 +1046,8 @@
     "start": "2022-04-08T16:00:00+09:00",
     "end": "2022-04-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fc716bd63d185f96eabd16ece6c4f79d945eef49@twst-kamigame-notifier"
   },
   "スプリングキャンペーン|2022-04-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -951,7 +1056,8 @@
     "start": "2022-04-15T16:00:00+09:00",
     "end": "2022-04-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1c571ab44674ea86fa12dc7e190ca51f606ed64c@twst-kamigame-notifier"
   },
   "復刻ラギー バースデーキャンペーン|2022-04-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -960,7 +1066,8 @@
     "start": "2022-04-15T16:00:00+09:00",
     "end": "2022-04-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-73e6a65097264e36ae8b76b8d01e3daae727a851@twst-kamigame-notifier"
   },
   "復刻 フェアリーガラ|2022-04-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -969,7 +1076,8 @@
     "start": "2022-04-28T16:00:00+09:00",
     "end": "2022-05-13T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2c82c923864ba11eb5fdabbe96f1531eed9afc57@twst-kamigame-notifier"
   },
   "復刻エペル バースデーキャンペーン|2022-05-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -978,7 +1086,8 @@
     "start": "2022-05-05T16:00:00+09:00",
     "end": "2022-05-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-9d5b07bebb7e506a8042ec3a44c972c496943adc@twst-kamigame-notifier"
   },
   "復刻シルバー バースデーキャンペーン|2022-05-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -987,7 +1096,8 @@
     "start": "2022-05-13T16:00:00+09:00",
     "end": "2022-05-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3b873b67516381aba6f3002af82b1bb84d72d96c@twst-kamigame-notifier"
   },
   "6章後編2|2022-05-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -996,7 +1106,8 @@
     "start": "2022-05-20T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3b222f6c3e179552b0670d277b7bd0933d1e76f6@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2022-05-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1005,7 +1116,8 @@
     "start": "2022-05-20T16:00:00+09:00",
     "end": "2022-05-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3f2b598734891a01dbe1e6f153033f8d7acad7d8@twst-kamigame-notifier"
   },
   "フェアリーガラIF 〜妖精たちと魅る幻想の祝祭〜|2022-05-30T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1014,7 +1126,8 @@
     "start": "2022-05-30T16:00:00+09:00",
     "end": "2022-06-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3849b068b9d4b6ed5bc652f8c15954efc294830d@twst-kamigame-notifier"
   },
   "ルーム機能実装 記念キャンペーン|2022-05-30T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1023,7 +1136,8 @@
     "start": "2022-05-30T16:00:00+09:00",
     "end": "2022-06-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b9e072756a131994f6017e68cf87061ccdb97f20@twst-kamigame-notifier"
   },
   "復刻デュース バースデーキャンペーン|2022-06-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1032,7 +1146,8 @@
     "start": "2022-06-02T16:00:00+09:00",
     "end": "2022-06-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-722e46a1a3c58ff8c3fd691fcb46afa0b962b842@twst-kamigame-notifier"
   },
   "復刻 星に願いを 〜Dance and Wishes〜|2022-06-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1041,7 +1156,8 @@
     "start": "2022-06-17T16:00:00+09:00",
     "end": "2022-06-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-71c985837ea50fe6beac5f60fc261cb0612594b5@twst-kamigame-notifier"
   },
   "復刻カリム バースデーキャンペーン|2022-06-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1050,7 +1166,8 @@
     "start": "2022-06-24T16:00:00+09:00",
     "end": "2022-06-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e6f8c52cfd74e20836164a6946e4ee215369cd18@twst-kamigame-notifier"
   },
   "ようこそ！ツムステッドワンダーランド|2022-06-30T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1059,7 +1176,8 @@
     "start": "2022-06-30T16:00:00+09:00",
     "end": "2022-07-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-8c531684c605e3a815af97039b84ef46663b5e72@twst-kamigame-notifier"
   },
   "ゲストルーム キャンペーン|2022-07-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1068,7 +1186,8 @@
     "start": "2022-07-22T16:00:00+09:00",
     "end": "2022-08-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fc4b87ecef9e4a6f55f3b1b4ae9310b06906282b@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2022-07-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1077,7 +1196,8 @@
     "start": "2022-07-22T16:00:00+09:00",
     "end": "2022-08-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c1eadbeb815f60f3fc030509b004ea11ea2104c8@twst-kamigame-notifier"
   },
   "復刻レオナ バースデーキャンペーン|2022-07-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1086,7 +1206,8 @@
     "start": "2022-07-26T16:00:00+09:00",
     "end": "2022-08-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ce5d1c91990c27f4771b07cb9fc726bd358afc16@twst-kamigame-notifier"
   },
   "復刻バルガスCAMP! 〜スプリングハプニング〜|2022-08-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1095,7 +1216,8 @@
     "start": "2022-08-01T16:00:00+09:00",
     "end": "2022-08-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1ba3835f0f16baedb82fbaed54f337cbe818fc50@twst-kamigame-notifier"
   },
   "復刻オルト バースデーキャンペーン|2022-08-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1104,7 +1226,8 @@
     "start": "2022-08-12T16:00:00+09:00",
     "end": "2022-08-18T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c420f6338e140ab562ded6afa19957f56c2c7997@twst-kamigame-notifier"
   },
   "復刻リドル バースデーキャンペーン|2022-08-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1113,7 +1236,8 @@
     "start": "2022-08-23T16:00:00+09:00",
     "end": "2022-08-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2c11eb29f66837c0c07f13a721aafa0762de8989@twst-kamigame-notifier"
   },
   "ポートフェスト 〜潮風のブラスビート〜|2022-08-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1122,7 +1246,8 @@
     "start": "2022-08-26T16:00:00+09:00",
     "end": "2022-09-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ee284c8a0a3d00c71ef7a8c857851174ac02ac66@twst-kamigame-notifier"
   },
   "復刻ジャミル バースデーキャンペーン|2022-09-09T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1131,7 +1256,8 @@
     "start": "2022-09-09T16:00:00+09:00",
     "end": "2023-08-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e30e96c94ced8de3d2cbc7012e6f849893c49b06@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜芋のその先〜|2022-09-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1140,7 +1266,8 @@
     "start": "2022-09-12T16:00:00+09:00",
     "end": "2022-09-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ff4f3cb20f1be72d5495ba7a4f34f7c312b9db40@twst-kamigame-notifier"
   },
   "バルガスCAMP! 〜ハプニング・リターンズ〜|2022-09-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1149,7 +1276,8 @@
     "start": "2022-09-22T16:00:00+09:00",
     "end": "2022-10-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ab9b4bc9ce5ed4d3ceccffd81e0f8cb3d783dfcd@twst-kamigame-notifier"
   },
   "復刻エース バースデーキャンペーン|2022-09-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1158,7 +1286,8 @@
     "start": "2022-09-22T16:00:00+09:00",
     "end": "2022-09-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-9411d35ddb48d3cd7e5f25bcc0c7bddfd48ec27b@twst-kamigame-notifier"
   },
   "復刻ジャック バースデーキャンペーン|2022-10-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1167,7 +1296,8 @@
     "start": "2022-10-07T16:00:00+09:00",
     "end": "2022-10-13T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-443a56ef7e8418890ec70409aa8299cf50147577@twst-kamigame-notifier"
   },
   "ゲストルーム キャンペーン|2022-10-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1176,7 +1306,8 @@
     "start": "2022-10-11T16:00:00+09:00",
     "end": "2022-10-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2cfcd2fe123131c8b359823c0e0099aab54d87fa@twst-kamigame-notifier"
   },
   "復刻 続スケアリー・モンスターズ！|2022-10-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1185,7 +1316,8 @@
     "start": "2022-10-11T16:00:00+09:00",
     "end": "2022-10-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-d1922a6b969a36952690874785544408245be314@twst-kamigame-notifier"
   },
   "グロリアス・マスカレード 第1章「訪問ノーブルベル！」|2022-10-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1194,7 +1326,8 @@
     "start": "2022-10-24T16:00:00+09:00",
     "end": "2022-10-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1abf58715663b14006a9e5b6438355f01d1a9d91@twst-kamigame-notifier"
   },
   "復刻トレイ バースデーキャンペーン|2022-10-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1203,7 +1336,8 @@
     "start": "2022-10-24T16:00:00+09:00",
     "end": "2022-10-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6cacff01db83dd7d411d5d3cc69c16d5d9eecb4b@twst-kamigame-notifier"
   },
   "グロリアス・マスカレード 第2章「堪能リサーチ！」|2022-10-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1212,7 +1346,8 @@
     "start": "2022-10-31T16:00:00+09:00",
     "end": "2022-11-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-caad31f317b969d0a614a35ed151c556ed4a7de1@twst-kamigame-notifier"
   },
   "復刻ジェイド バースデーキャンペーン|2022-11-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1221,7 +1356,8 @@
     "start": "2022-11-04T16:00:00+09:00",
     "end": "2022-11-10T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f1923bdc7d37347415eed6c8d5fe4848fd02ad1b@twst-kamigame-notifier"
   },
   "復刻フロイド バースデーキャンペーン|2022-11-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1230,7 +1366,8 @@
     "start": "2022-11-04T16:00:00+09:00",
     "end": "2022-11-10T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6171ec22d41cea066a5357d8ba824c49c6876164@twst-kamigame-notifier"
   },
   "グロリアス・マスカレード 第3章「高揚スパーキング！」|2022-11-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1239,7 +1376,8 @@
     "start": "2022-11-07T16:00:00+09:00",
     "end": "2022-11-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-75e45ef66ced34056cf622f613b86141dd03e5cf@twst-kamigame-notifier"
   },
   "グロリアス・マスカレード 第4章「紅蓮アブレイズ！」|2022-11-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1248,7 +1386,8 @@
     "start": "2022-11-14T16:00:00+09:00",
     "end": "2022-11-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c3785ff2aed45ae94f9dabe11b51a604cea534e0@twst-kamigame-notifier"
   },
   "グロリアス・マスカレード 第5章「終幕マスカレード！」|2022-11-21T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1257,7 +1396,8 @@
     "start": "2022-11-21T16:00:00+09:00",
     "end": "2022-12-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e5856f99946205059cf998f0b140ca1eeebd9a1a@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2022-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1266,7 +1406,8 @@
     "start": "2022-12-01T16:00:00+09:00",
     "end": "2022-12-12T23:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-244b587794433e8d8517a72020f5d1714b5bbe6e@twst-kamigame-notifier"
   },
   "復刻ルーク バースデーキャンペーン|2022-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1275,7 +1416,8 @@
     "start": "2022-12-01T16:00:00+09:00",
     "end": "2022-12-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e07c52c869a7f2660fc6354bf219dc88c17d32fe@twst-kamigame-notifier"
   },
   "ウィンターホリデーキャンペーン|2022-12-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1284,7 +1426,8 @@
     "start": "2022-12-12T16:00:00+09:00",
     "end": "2022-12-31T23:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6fba6ffba92cde0e97f251f167d1b16b0462cce3@twst-kamigame-notifier"
   },
   "復刻イデア バースデーキャンペーン|2022-12-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1293,7 +1436,8 @@
     "start": "2022-12-16T16:00:00+09:00",
     "end": "2022-12-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4a166ff27e4128370d1949b7df6fe2de18745a4f@twst-kamigame-notifier"
   },
   "7章Chapter1|2022-12-19T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1302,7 +1446,8 @@
     "start": "2022-12-19T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0ec92075053797c36cba6f10c16b3fded7e0a084@twst-kamigame-notifier"
   },
   "7章配信キャンペーン|2022-12-19T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1311,7 +1456,8 @@
     "start": "2022-12-19T16:00:00+09:00",
     "end": "2022-12-31T23:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ea07dab89cc2fae46f7984fec4cfed23d8fccbd4@twst-kamigame-notifier"
   },
   "ニューイヤーキャンペーン2023|2022-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1320,7 +1466,8 @@
     "start": "2022-12-31T16:00:00+09:00",
     "end": "2023-01-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2991300a45faa1bac2adff69437ff370141cc641@twst-kamigame-notifier"
   },
   "復刻リリア バースデーキャンペーン|2022-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1329,7 +1476,8 @@
     "start": "2022-12-31T16:00:00+09:00",
     "end": "2023-01-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ee78009098766a3e26fd2e5c8f00efdad44be488@twst-kamigame-notifier"
   },
   "正月イベント 「Sam's New Year Sale 2023」|2022-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1338,7 +1486,8 @@
     "start": "2022-12-31T16:00:00+09:00",
     "end": "2023-01-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3b1b0fa6de5c2b26520aea49b1876ae9f82ee78e@twst-kamigame-notifier"
   },
   "復刻マレウス バースデーキャンペーン|2023-01-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1347,7 +1496,8 @@
     "start": "2023-01-17T16:00:00+09:00",
     "end": "2023-01-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6c1572d555c4cefee445dfba6ca9cac53177312c@twst-kamigame-notifier"
   },
   "第8回NRC統一試験|2023-01-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1356,7 +1506,8 @@
     "start": "2023-01-17T16:00:00+09:00",
     "end": "2023-01-27T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-d39e7799f421007f41d7d0fb1d6fcaad0a548922@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜麺と麺〜|2023-01-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1365,7 +1516,8 @@
     "start": "2023-01-27T16:00:00+09:00",
     "end": "2023-02-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-9b39eedcf552d95b4e26244587a6b9598a245fc7@twst-kamigame-notifier"
   },
   "復刻ケイト バースデーキャンペーン|2023-02-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1374,7 +1526,8 @@
     "start": "2023-02-03T16:00:00+09:00",
     "end": "2023-02-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-090c6c1c8be0c4e0bced9f3172c89206b85a06ac@twst-kamigame-notifier"
   },
   "夕焼けの草原の タマーシュナ・ムイナ|2023-02-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1383,7 +1536,8 @@
     "start": "2023-02-07T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-85ea528343a5c1056fd8bbed48915ca6ece9e9ef@twst-kamigame-notifier"
   },
   "復刻アズール バースデーキャンペーン|2023-02-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1392,7 +1546,8 @@
     "start": "2023-02-22T16:00:00+09:00",
     "end": "2023-02-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-84b4a93dced0e79cc75b93c45e2858b32cc22361@twst-kamigame-notifier"
   },
   "7章Chapter2|2023-02-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1401,7 +1556,8 @@
     "start": "2023-02-27T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b03b153ca88243daaf61e49e53f1f4a9e31e9226@twst-kamigame-notifier"
   },
   "3周年アニバーサリー|2023-03-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1410,7 +1566,8 @@
     "start": "2023-03-10T16:00:00+09:00",
     "end": "2023-03-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0a5b712b4b5d79bb9f21526c69b94700a8732475@twst-kamigame-notifier"
   },
   "復刻セベク バースデーキャンペーン|2023-03-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1419,7 +1576,8 @@
     "start": "2023-03-16T16:00:00+09:00",
     "end": "2023-03-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4488e60565194bcf01ebbbc819a962310fcb6b9b@twst-kamigame-notifier"
   },
   "第9回NRC統一試験|2023-03-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1428,7 +1586,8 @@
     "start": "2023-03-24T16:00:00+09:00",
     "end": "2023-04-04T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1bf2888bfb7f979edd2fcf7ed8f527bec4304f42@twst-kamigame-notifier"
   },
   "ようこそ！ツムステッドワンダーランドPart2|2023-04-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1437,7 +1596,8 @@
     "start": "2023-04-04T16:00:00+09:00",
     "end": "2023-04-27T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a36284bf9c31a955444c08530957cd69e4a34c40@twst-kamigame-notifier"
   },
   "復刻ヴィル バースデーキャンペーン|2023-04-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1446,7 +1606,8 @@
     "start": "2023-04-07T16:00:00+09:00",
     "end": "2023-04-13T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1b57008498425b57ea348a5d92773e8af55896e9@twst-kamigame-notifier"
   },
   "復刻ラギー バースデーキャンペーン|2023-04-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1455,7 +1616,8 @@
     "start": "2023-04-17T16:00:00+09:00",
     "end": "2023-04-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-75e79e5af61023ccad2510a1cb0d1ed82a2b782c@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2023-04-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1464,7 +1626,8 @@
     "start": "2023-04-27T16:00:00+09:00",
     "end": "2023-05-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-99030fef947e653908a5a95249a18e227accb195@twst-kamigame-notifier"
   },
   "復刻エペル バースデーキャンペーン|2023-05-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1473,7 +1636,8 @@
     "start": "2023-05-05T16:00:00+09:00",
     "end": "2023-05-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4bbd054de7f19ee8488ca0c0628a05affe3ff5c5@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜ルールなきパプリカ〜|2023-05-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1482,7 +1646,8 @@
     "start": "2023-05-08T16:00:00+09:00",
     "end": "2023-05-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-536bfce16f4d52946be54aa1c6b07774b80f694e@twst-kamigame-notifier"
   },
   "復刻シルバー バースデーキャンペーン|2023-05-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1491,7 +1656,8 @@
     "start": "2023-05-12T16:00:00+09:00",
     "end": "2023-05-18T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-26dae5d3f74f3ee2f9220b23c1dafb988cd1caa6@twst-kamigame-notifier"
   },
   "7章Chapter3|2023-05-19T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1500,7 +1666,8 @@
     "start": "2023-05-19T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cc196f444eea9c28231c141841defc212a8001c0@twst-kamigame-notifier"
   },
   "復刻デュース バースデーキャンペーン|2023-06-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1509,7 +1676,8 @@
     "start": "2023-06-02T16:00:00+09:00",
     "end": "2023-06-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4f9d6cff5d89bc67cc8381ad229193eda653fbcd@twst-kamigame-notifier"
   },
   "熱砂の国の アリアーブ・ナーリヤ|2023-06-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1518,7 +1686,8 @@
     "start": "2023-06-02T16:00:00+09:00",
     "end": "2023-06-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-01b00bfda8dbaca7116b7038a9cb89061d2510a9@twst-kamigame-notifier"
   },
   "復刻カリム バースデーキャンペーン|2023-06-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1527,7 +1696,8 @@
     "start": "2023-06-23T16:00:00+09:00",
     "end": "2023-06-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0b99e10b4873f8c8c36180382ae43a9a07e6ee02@twst-kamigame-notifier"
   },
   "7章Chapter4|2023-06-29T17:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1536,7 +1706,8 @@
     "start": "2023-06-29T17:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cf137e9114e9c7b679f4fbb5b64e16a332b5d885@twst-kamigame-notifier"
   },
   "強化合宿 ディアソムニア編|2023-06-29T17:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1545,7 +1716,8 @@
     "start": "2023-06-29T17:00:00+09:00",
     "end": "2023-07-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4cfe8e06bdb4b6441730ccc2f43aba4a12593027@twst-kamigame-notifier"
   },
   "薔薇の王国のホワイトラビット・フェス|2023-07-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1554,7 +1726,8 @@
     "start": "2023-07-12T16:00:00+09:00",
     "end": "2023-07-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1bdcff1998f7fa0108b6e53e79efd5025dbc5b2e@twst-kamigame-notifier"
   },
   "復刻レオナ バースデーキャンペーン|2023-07-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1563,7 +1736,8 @@
     "start": "2023-07-26T16:00:00+09:00",
     "end": "2023-08-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-05a79121d3b2efb6ebd3c3a104970e21737917bf@twst-kamigame-notifier"
   },
   "第10回NRC統一試験|2023-07-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1572,7 +1746,8 @@
     "start": "2023-07-31T16:00:00+09:00",
     "end": "2023-08-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cf893ce3192be3e19f66c37e9b90125c3b62d7b3@twst-kamigame-notifier"
   },
   "復刻オルト バースデーキャンペーン|2023-08-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1581,7 +1756,8 @@
     "start": "2023-08-10T16:00:00+09:00",
     "end": "2023-08-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f30e29e96816a16ee325ba5e0587e54b478f6d84@twst-kamigame-notifier"
   },
   "Lost in Book with Stich~真夏の海と宇宙船~|2023-08-18T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1590,7 +1766,8 @@
     "start": "2023-08-18T16:00:00+09:00",
     "end": "2023-09-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1dd09ce222e025aa30f1b8ba7036546b877b8e16@twst-kamigame-notifier"
   },
   "復刻リドル バースデーキャンペーン|2023-08-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1599,7 +1776,8 @@
     "start": "2023-08-23T16:00:00+09:00",
     "end": "2023-08-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1fa1eec274f8fd5a5370f0258bf4c182c2e73f41@twst-kamigame-notifier"
   },
   "7章Chapter5|2023-09-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1608,7 +1786,8 @@
     "start": "2023-09-08T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3028a676d4d0800cfeb490dd089bedcba07340cc@twst-kamigame-notifier"
   },
   "復刻ジャミル バースデーキャンペーン|2023-09-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1617,7 +1796,8 @@
     "start": "2023-09-11T16:00:00+09:00",
     "end": "2023-09-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1857d7145c6e8c6153d11e1e32457cd8a1f83462@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜ミルクの奔流〜|2023-09-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1626,7 +1806,8 @@
     "start": "2023-09-15T16:00:00+09:00",
     "end": "2023-09-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-01e246e70cefe609167a8f0617619687ea6e3605@twst-kamigame-notifier"
   },
   "復刻エース バースデーキャンペーン|2023-09-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1635,7 +1816,8 @@
     "start": "2023-09-22T16:00:00+09:00",
     "end": "2023-09-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-901f0b1e0478ec43d53214e6fb2307ff152563c3@twst-kamigame-notifier"
   },
   "復刻 グロリアス・マスカレード|2023-09-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1644,7 +1826,8 @@
     "start": "2023-09-28T16:00:00+09:00",
     "end": "2023-10-13T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0fc2230dfdee38b80aad0702dff04037308da1c6@twst-kamigame-notifier"
   },
   "復刻ジャック バースデーキャンペーン|2023-10-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1653,7 +1836,8 @@
     "start": "2023-10-10T16:00:00+09:00",
     "end": "2023-10-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0f54ad82304cd0d6bac74f98f8672d5bc66e6055@twst-kamigame-notifier"
   },
   "Disney100 プラチナキャンペーン|2023-10-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1662,7 +1846,8 @@
     "start": "2023-10-13T16:00:00+09:00",
     "end": "2023-10-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-9057aed95b247a9f0ddcf4b54e20f66570b321ce@twst-kamigame-notifier"
   },
   "ステージ・イン・プレイフルランド 1章「招待プレイフルランド！」|2023-10-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1671,7 +1856,8 @@
     "start": "2023-10-20T16:00:00+09:00",
     "end": "2023-10-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1ffbb3dc58470b7ce2dda47c9946a4ac7c7f7b91@twst-kamigame-notifier"
   },
   "復刻トレイ バースデーキャンペーン|2023-10-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1680,7 +1866,8 @@
     "start": "2023-10-24T16:00:00+09:00",
     "end": "2023-10-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0601ea63e8a23e56bda9ce8d86b873fa81d2da24@twst-kamigame-notifier"
   },
   "ステージ・イン・プレイフルランド 2章「巡遊アトラクション！」|2023-10-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1689,7 +1876,8 @@
     "start": "2023-10-26T16:00:00+09:00",
     "end": "2023-11-02T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e5f715285e19960cee2c07bf8ca4e42de3a2a497@twst-kamigame-notifier"
   },
   "ステージ・イン・プレイフルランド 3章「熱狂ステージ！」|2023-11-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1698,7 +1886,8 @@
     "start": "2023-11-02T16:00:00+09:00",
     "end": "2023-11-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cbee1f40d436dec663952552b345a872ab6d1d80@twst-kamigame-notifier"
   },
   "復刻ジェイド バースデーキャンペーン|2023-11-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1707,7 +1896,8 @@
     "start": "2023-11-02T16:00:00+09:00",
     "end": "2023-11-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-49840aa0b0575fd62fe0e4d8d9d2702b4b06e690@twst-kamigame-notifier"
   },
   "復刻フロイド バースデーキャンペーン|2023-11-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1716,7 +1906,8 @@
     "start": "2023-11-02T16:00:00+09:00",
     "end": "2023-11-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fbb4b2a0e99023671bb98a8c5981eb61ace113d4@twst-kamigame-notifier"
   },
   "ステージ・イン・プレイフルランド 3章「熱狂ステージ！」|2023-11-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1725,7 +1916,8 @@
     "start": "2023-11-08T16:00:00+09:00",
     "end": "2023-11-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1b456dd0372189e0d9c0a1eaa873583912c0ea4a@twst-kamigame-notifier"
   },
   "ステージ・イン・プレイフルランド 3章「熱狂ステージ！」|2023-11-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1734,7 +1926,8 @@
     "start": "2023-11-14T16:00:00+09:00",
     "end": "2023-11-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fe606a4a5bdf319db851e0217b1cdcceda368a14@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2023-11-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1743,7 +1936,8 @@
     "start": "2023-11-22T16:00:00+09:00",
     "end": "2023-12-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a667f5aae2e6e39ff2fc546078e21a8796a8cf8e@twst-kamigame-notifier"
   },
   "復刻ルーク バースデーキャンペーン|2023-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1752,7 +1946,8 @@
     "start": "2023-12-01T16:00:00+09:00",
     "end": "2023-12-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f478113835eb41121a4ae1def157d99a99217969@twst-kamigame-notifier"
   },
   "第11回NRC統一試験|2023-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1761,7 +1956,8 @@
     "start": "2023-12-01T16:00:00+09:00",
     "end": "2023-12-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7c5bf46f8104f8da7739a8b49416c777949c0832@twst-kamigame-notifier"
   },
   "7章Chapter6|2023-12-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1770,7 +1966,8 @@
     "start": "2023-12-11T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fb7c23eb0ff569448e57cb751ae7a7c5e1956502@twst-kamigame-notifier"
   },
   "ウィンターホリデーキャンペーン|2023-12-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1779,7 +1976,8 @@
     "start": "2023-12-11T16:00:00+09:00",
     "end": "2023-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-24965ec50681af177c4964e47d45392c7e0ecc8e@twst-kamigame-notifier"
   },
   "復刻イデア バースデーキャンペーン|2023-12-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1788,7 +1986,8 @@
     "start": "2023-12-15T16:00:00+09:00",
     "end": "2023-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-28f1e4869db56cc94eed64e4d7c9947dedd06a07@twst-kamigame-notifier"
   },
   "豊作村のケルッカロト|2023-12-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1797,7 +1996,8 @@
     "start": "2023-12-15T16:00:00+09:00",
     "end": "2023-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-af3d03569b2f7d6d20c8e2c2d8e3c73ec899cae3@twst-kamigame-notifier"
   },
   "ニューイヤーキャンペーン2024|2023-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1806,7 +2006,8 @@
     "start": "2023-12-31T16:00:00+09:00",
     "end": "2024-01-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-71dbc5564178527538d82765198e9dda60f458e7@twst-kamigame-notifier"
   },
   "復刻リリア バースデーキャンペーン|2023-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1815,7 +2016,8 @@
     "start": "2023-12-31T16:00:00+09:00",
     "end": "2024-01-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-bbab7e4a6ddf30ac1d175ff1d9b826004462c0c4@twst-kamigame-notifier"
   },
   "Sam's New Year Sale 2024|2024-01-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1824,7 +2026,8 @@
     "start": "2024-01-01T16:00:00+09:00",
     "end": "2024-01-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f227f566e10476fb3c0dfe6ce8dad1f9832a9a17@twst-kamigame-notifier"
   },
   "復刻マレウス バースデーキャンペーン|2024-01-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1833,7 +2036,8 @@
     "start": "2024-01-17T16:00:00+09:00",
     "end": "2024-01-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e0a8b4cd21e1e2eea0061b9387bf5f16ae4d4149@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜スイーツ革命〜|2024-01-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1842,7 +2046,8 @@
     "start": "2024-01-23T16:00:00+09:00",
     "end": "2024-02-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1bd1322a482ad913cfd7bb92ab874240c7bfff2d@twst-kamigame-notifier"
   },
   "復刻ケイト バースデーキャンペーン|2024-02-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1851,7 +2056,8 @@
     "start": "2024-02-02T16:00:00+09:00",
     "end": "2024-02-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-636558162237ed72666cbbc18f359f3a7b998245@twst-kamigame-notifier"
   },
   "復刻ハッピービーンズデー 〜竪琴無用の場外乱闘〜|2024-02-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1860,7 +2066,8 @@
     "start": "2024-02-05T16:00:00+09:00",
     "end": "2024-02-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f1fe721e07f44b99e836b5241c59fbe1193884db@twst-kamigame-notifier"
   },
   "NRC魔法実践授業Withクロウリー|2024-02-19T17:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1869,7 +2076,8 @@
     "start": "2024-02-19T17:00:00+09:00",
     "end": "2024-03-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6f2fe766825b2a881fe9e0e5e0a5619a3c73fa50@twst-kamigame-notifier"
   },
   "復刻アズール バースデーキャンペーン|2024-02-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1878,7 +2086,8 @@
     "start": "2024-02-22T16:00:00+09:00",
     "end": "2024-02-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-35a1d6ca50749c3e7e7ad9f8abc1ebd5cd37aa48@twst-kamigame-notifier"
   },
   "7章Chapter7|2024-03-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1887,7 +2096,8 @@
     "start": "2024-03-01T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4d63f6d4c80fcede3178d869e457c8a93cb92adb@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2024-03-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1896,7 +2106,8 @@
     "start": "2024-03-01T16:00:00+09:00",
     "end": "2024-03-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-36eacb351482346be1bbdf25adebe2d76acbfb03@twst-kamigame-notifier"
   },
   "4周年アニバーサリー|2024-03-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1905,7 +2116,8 @@
     "start": "2024-03-11T16:00:00+09:00",
     "end": "2024-03-25T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7f45df0ad3d4156289797c6eb3a3af7a1712d0e1@twst-kamigame-notifier"
   },
   "第12回NRC統一試験|2024-03-25T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1914,7 +2126,8 @@
     "start": "2024-03-25T16:00:00+09:00",
     "end": "2024-04-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-da81b32bbd0837855636d4d2b280fd1cbc6bc4ee@twst-kamigame-notifier"
   },
   "輝石の国のタピ・ルージュ|2024-04-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1923,7 +2136,8 @@
     "start": "2024-04-05T16:00:00+09:00",
     "end": "2024-04-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3636556284afd0a02b78fa45d220bbfdb0b3429a@twst-kamigame-notifier"
   },
   "復刻ヴィル バースデーキャンペーン|2024-04-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1932,7 +2146,8 @@
     "start": "2024-04-08T16:00:00+09:00",
     "end": "2024-04-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-655c89de2e9f766f2f2bb4b4a2850c878589b4ff@twst-kamigame-notifier"
   },
   "復刻ラギー バースデーキャンペーン|2024-04-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1941,7 +2156,8 @@
     "start": "2024-04-17T16:00:00+09:00",
     "end": "2024-04-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7a2745c7234608b4cd2f5e0fb009146a7b63a1f3@twst-kamigame-notifier"
   },
   "NRCマスターシェフ 〜米との出会い〜|2024-04-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1950,7 +2166,8 @@
     "start": "2024-04-26T16:00:00+09:00",
     "end": "2024-05-10T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6a1308ffde49f0219a569e730f6a1e0c1fc063dd@twst-kamigame-notifier"
   },
   "メインストーリー読破応援キャンペーン|2024-04-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1959,7 +2176,8 @@
     "start": "2024-04-26T16:00:00+09:00",
     "end": "2024-06-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fac53015300427f5235e687df3c91c66ad318b84@twst-kamigame-notifier"
   },
   "復刻エペル バースデーキャンペーン|2024-05-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1968,7 +2186,8 @@
     "start": "2024-05-05T16:00:00+09:00",
     "end": "2024-05-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cbcfafc66b416cf531d6c6141d6bd68ea21e6e9e@twst-kamigame-notifier"
   },
   "7章Chapter8|2024-05-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1977,7 +2196,8 @@
     "start": "2024-05-10T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-8905ae3b769dd1e80472227deccec47e4d6ff280@twst-kamigame-notifier"
   },
   "復刻シルバー バースデーキャンペーン|2024-05-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1986,7 +2206,8 @@
     "start": "2024-05-14T16:00:00+09:00",
     "end": "2024-05-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ba95aeb249096769c6e1b973467b6b9ecdbb723d@twst-kamigame-notifier"
   },
   "ようこそ！ツムステッドワンダーランドPart3|2024-05-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -1995,7 +2216,8 @@
     "start": "2024-05-20T16:00:00+09:00",
     "end": "2024-06-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-21227711c9424d04ceec9c64e68c2fdf35bf6429@twst-kamigame-notifier"
   },
   "復刻デュース バースデーキャンペーン|2024-05-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2004,7 +2226,8 @@
     "start": "2024-05-31T16:00:00+09:00",
     "end": "2024-06-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-06320c98581b0a83f3c9a3410b4414feddee815f@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2024-06-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2013,7 +2236,8 @@
     "start": "2024-06-17T16:00:00+09:00",
     "end": "2024-06-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-31a16cb718d006be7bd7a3da3592e34299a378e7@twst-kamigame-notifier"
   },
   "復刻カリム バースデーキャンペーン|2024-06-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2022,7 +2246,8 @@
     "start": "2024-06-24T16:00:00+09:00",
     "end": "2024-06-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2265a81285a0f401114f9eac5ef5f12e6850e742@twst-kamigame-notifier"
   },
   "NRC魔法実践授業Withクルーウェル|2024-06-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2031,7 +2256,8 @@
     "start": "2024-06-28T16:00:00+09:00",
     "end": "2024-07-10T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-8124017539698b43e4e6eeba1f1fc98e5257887b@twst-kamigame-notifier"
   },
   "7章Chapter9|2024-07-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2040,7 +2266,8 @@
     "start": "2024-07-12T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-850a7dcee14032419daf123a18f94c25ae8db7bf@twst-kamigame-notifier"
   },
   "7章Chapter10|2024-07-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2049,7 +2276,8 @@
     "start": "2024-07-16T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4232c7e56b7a828387a99aee4ca3804b554d313e@twst-kamigame-notifier"
   },
   "復刻ポートフェスト 〜潮風のブラスビート〜|2024-07-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2058,7 +2286,8 @@
     "start": "2024-07-22T16:00:00+09:00",
     "end": "2024-08-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-18ffb5862dfa8d88637be4a5a2141a984dd40f58@twst-kamigame-notifier"
   },
   "復刻レオナ バースデーキャンペーン|2024-07-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2067,7 +2296,8 @@
     "start": "2024-07-26T16:00:00+09:00",
     "end": "2024-08-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-34968207150c086803da09a6a57d4815c324706d@twst-kamigame-notifier"
   },
   "第13回NRC統一試験|2024-08-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2076,7 +2306,8 @@
     "start": "2024-08-05T16:00:00+09:00",
     "end": "2024-08-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f319ff986b8835062fabc0052cc30153d7b10628@twst-kamigame-notifier"
   },
   "復刻オルト バースデーキャンペーン|2024-08-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2085,7 +2316,8 @@
     "start": "2024-08-13T16:00:00+09:00",
     "end": "2024-08-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3f7475666f951451a366671f091951b62cdac687@twst-kamigame-notifier"
   },
   "復刻リドル バースデーキャンペーン|2024-08-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2094,7 +2326,8 @@
     "start": "2024-08-23T16:00:00+09:00",
     "end": "2024-08-29T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-55f026048d4ee4bc4b01eab8fb1ecbcd955a5bee@twst-kamigame-notifier"
   },
   "復刻 ステージ・イン・プレイフルランド|2024-09-09T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2103,7 +2336,8 @@
     "start": "2024-09-09T16:00:00+09:00",
     "end": "2024-10-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b3fc10e5e398b95584dd1347eb5894c1b7485df2@twst-kamigame-notifier"
   },
   "復刻ジャミル バースデーキャンペーン|2024-09-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2112,7 +2346,8 @@
     "start": "2024-09-11T16:00:00+09:00",
     "end": "2024-09-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1a03b7b9ca98be79f69d117af648f749bf7b8ffc@twst-kamigame-notifier"
   },
   "復刻エース バースデーキャンペーン|2024-09-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2121,7 +2356,8 @@
     "start": "2024-09-20T16:00:00+09:00",
     "end": "2024-09-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-74bf40b4ffcdfdd26f27742fcff331fbdf3a15b6@twst-kamigame-notifier"
   },
   "ナイトメアハロウィン 1章「交錯ナイトメアー！」|2024-10-01T17:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2130,7 +2366,8 @@
     "start": "2024-10-01T17:00:00+09:00",
     "end": "2024-10-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c4847ad9e3b6140bc3ac0c2a62043764c5007ed2@twst-kamigame-notifier"
   },
   "ナイトメアハロウィン 2章「斬新ハロウィン！」|2024-10-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2139,7 +2376,8 @@
     "start": "2024-10-08T16:00:00+09:00",
     "end": "2024-10-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-feca3872f04553a044d1bc411ba7221782ec733e@twst-kamigame-notifier"
   },
   "復刻ジャック バースデーキャンペーン|2024-10-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2148,7 +2386,8 @@
     "start": "2024-10-10T16:00:00+09:00",
     "end": "2024-10-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1b14a24cb2631a0bb1e89b01e54b689dee32cacb@twst-kamigame-notifier"
   },
   "ナイトメアハロウィン 3章「共同アレンジメント！」|2024-10-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2157,7 +2396,8 @@
     "start": "2024-10-15T16:00:00+09:00",
     "end": "2024-10-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-eff5e48e552b43e1d1c234484b1378ec29f5fe13@twst-kamigame-notifier"
   },
   "ナイトメアハロウィン 4章「捜索パンプキン！」|2024-10-21T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2166,7 +2406,8 @@
     "start": "2024-10-21T16:00:00+09:00",
     "end": "2024-10-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4d3429020eb45b2b9eaf5c6cac9a09168389094e@twst-kamigame-notifier"
   },
   "復刻トレイ バースデーキャンペーン|2024-10-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2175,7 +2416,8 @@
     "start": "2024-10-24T16:00:00+09:00",
     "end": "2024-10-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2b5d6f4f07b5c891094eefd51b20d9a5c93620e1@twst-kamigame-notifier"
   },
   "ナイトメアハロウィン 5章「終幕ハロウィン！」|2024-10-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2184,7 +2426,8 @@
     "start": "2024-10-28T16:00:00+09:00",
     "end": "2024-11-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c89208ad994b0596aecf9f3faae36b0083cd9d0b@twst-kamigame-notifier"
   },
   "復刻ジェイド バースデーキャンペーン|2024-11-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2193,7 +2436,8 @@
     "start": "2024-11-01T16:00:00+09:00",
     "end": "2024-11-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-129845772aab81bf82d823cb3ff761571c0123b7@twst-kamigame-notifier"
   },
   "復刻フロイド バースデーキャンペーン|2024-11-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2202,7 +2446,8 @@
     "start": "2024-11-01T16:00:00+09:00",
     "end": "2024-11-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-45e89bd1d9c8dc210853e02dd08e7b0b2df10244@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ 〜豆と人生〜|2024-11-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2211,7 +2456,8 @@
     "start": "2024-11-07T16:00:00+09:00",
     "end": "2024-12-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4e9d56450c0bc7477bcc3d8a865963ba26e2b1eb@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2024-11-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2220,7 +2466,8 @@
     "start": "2024-11-11T16:00:00+09:00",
     "end": "2024-11-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-98d9c3304c1c9e28f3aeade161622a59630ff858@twst-kamigame-notifier"
   },
   "7章Chapter11|2024-11-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2229,7 +2476,8 @@
     "start": "2024-11-22T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4af0eeca20464863948786e1153b197d3e937864@twst-kamigame-notifier"
   },
   "復刻ルーク バースデーキャンペーン|2024-11-29T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2238,7 +2486,8 @@
     "start": "2024-11-29T16:00:00+09:00",
     "end": "2024-12-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-86f2fcd49a02630a927aeb7b74a20bfdaecb5e36@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ 〜魚の誘惑〜|2024-12-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2247,7 +2496,8 @@
     "start": "2024-12-05T16:00:00+09:00",
     "end": "2024-12-13T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1f993b4ac1fa1f007000b5742aa8d9b76cf82de0@twst-kamigame-notifier"
   },
   "7章Chapter12前編|2024-12-09T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2256,7 +2506,8 @@
     "start": "2024-12-09T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ed42ab0f1a2e4f864c1a145b465d0d4da4674c97@twst-kamigame-notifier"
   },
   "ウィンターホリデーキャンペーン|2024-12-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2265,7 +2516,8 @@
     "start": "2024-12-13T16:00:00+09:00",
     "end": "2024-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-611fa3216df4c8b2afbf348137f4bd614a321fc6@twst-kamigame-notifier"
   },
   "復刻夕焼けの草原の タマーシュナ・ムイナ|2024-12-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2274,7 +2526,8 @@
     "start": "2024-12-13T16:00:00+09:00",
     "end": "2024-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-352262baa2ab1a1135a28c89d5cea77667247b8f@twst-kamigame-notifier"
   },
   "復刻イデア バースデーキャンペーン|2024-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2283,7 +2536,8 @@
     "start": "2024-12-17T16:00:00+09:00",
     "end": "2024-12-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f1531e5d7cc740e94bb56a726552e74c867f131d@twst-kamigame-notifier"
   },
   "ニューイヤーキャンペーン2024|2024-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2292,7 +2546,8 @@
     "start": "2024-12-31T16:00:00+09:00",
     "end": "2025-01-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-bee0c23c59fb38803483fd0bc9974619971e6a39@twst-kamigame-notifier"
   },
   "復刻リリア バースデーキャンペーン|2024-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2301,7 +2556,8 @@
     "start": "2024-12-31T16:00:00+09:00",
     "end": "2025-01-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-56c1e7f908f448842bcdb9f1a0a5c61ac1f12d90@twst-kamigame-notifier"
   },
   "Sam's New Year Sale 2025|2025-01-01T00:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2310,7 +2566,8 @@
     "start": "2025-01-01T00:00:00+09:00",
     "end": "2025-01-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a9b078411c4b821670f73aa8451fdde8268ead76@twst-kamigame-notifier"
   },
   "NRC魔法実践授業Withトレイン|2025-01-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2319,7 +2576,8 @@
     "start": "2025-01-15T16:00:00+09:00",
     "end": "2025-01-27T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-9190dfef29ab7cc8ac5ccd71c3f403599e09dc4e@twst-kamigame-notifier"
   },
   "復刻マレウス バースデーキャンペーン|2025-01-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2328,7 +2586,8 @@
     "start": "2025-01-17T16:00:00+09:00",
     "end": "2025-01-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ffe876f47b36384db887e04f2cec490802105cbf@twst-kamigame-notifier"
   },
   "第14回NRC統一試験|2025-01-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2337,7 +2596,8 @@
     "start": "2025-01-27T16:00:00+09:00",
     "end": "2025-02-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fd62fd7b6a30de4ff375a11f850ffd94dd22899f@twst-kamigame-notifier"
   },
   "7章Chapter12中編|2025-01-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2346,7 +2606,8 @@
     "start": "2025-01-31T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4561bac1e34cae0e0a4f70bfd2091d523cc9c39c@twst-kamigame-notifier"
   },
   "復刻ケイト バースデーキャンペーン|2025-02-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2355,7 +2616,8 @@
     "start": "2025-02-03T16:00:00+09:00",
     "end": "2025-02-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-249c7f54bd431aaeb0310dcf2b0068f7fa88838e@twst-kamigame-notifier"
   },
   "7章Chapter12後編|2025-02-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2364,7 +2626,8 @@
     "start": "2025-02-07T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4ec0e90f22979e6ca0fde4a932fc7e576adf2778@twst-kamigame-notifier"
   },
   "願いのランタン ～自由への道のり～|2025-02-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2373,7 +2636,8 @@
     "start": "2025-02-14T16:00:00+09:00",
     "end": "2025-03-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-18e581f35bb6928c3d8f99e8c84d801003427d34@twst-kamigame-notifier"
   },
   "復刻アズール バースデーキャンペーン|2025-02-21T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2382,7 +2646,8 @@
     "start": "2025-02-21T16:00:00+09:00",
     "end": "2025-02-27T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0a7912ebc81a7d934c34de3a10c17bce512a0df7@twst-kamigame-notifier"
   },
   "7章Chapter13後編|2025-03-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2391,7 +2656,8 @@
     "start": "2025-03-05T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f4c7d1afb70de4ccf2a33d4cc312e1f320889d12@twst-kamigame-notifier"
   },
   "5周年アニバーサリー|2025-03-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2400,7 +2666,8 @@
     "start": "2025-03-14T16:00:00+09:00",
     "end": "2025-03-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0bbade4ed744ad7c6d254aa469f13109dc9f00d4@twst-kamigame-notifier"
   },
   "ブレイジング・ジュエル～Listen to Our Songs!～|2025-03-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2409,7 +2676,8 @@
     "start": "2025-03-14T16:00:00+09:00",
     "end": "2025-03-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c2c8af0beeee5e2c627589600c050facf012b59f@twst-kamigame-notifier"
   },
   "復刻セベク バースデーキャンペーン|2025-03-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2418,7 +2686,8 @@
     "start": "2025-03-14T16:00:00+09:00",
     "end": "2025-03-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0a41a846cebf4ace06334651e8ce8c771d848505@twst-kamigame-notifier"
   },
   "SSR マレウス[深淵の支配者]登場キャンペーン|2025-03-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2427,7 +2696,8 @@
     "start": "2025-03-28T16:00:00+09:00",
     "end": "2025-04-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7f52920ffa15b8cb3d2fc7534cd9bba569366388@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2025-03-28T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2436,7 +2706,8 @@
     "start": "2025-03-28T16:00:00+09:00",
     "end": "2025-04-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0e9da844fe60abcda49b0e6e1c2ce7ce9ff244a1@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ 〜卵の真髄〜|2025-04-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2445,7 +2716,8 @@
     "start": "2025-04-08T16:00:00+09:00",
     "end": "2025-04-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-63eececa64dd4667c4b9a10acacf576b81d61867@twst-kamigame-notifier"
   },
   "復刻ヴィル バースデーキャンペーン|2025-04-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2454,7 +2726,8 @@
     "start": "2025-04-08T16:00:00+09:00",
     "end": "2025-04-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-109b76e94395786c30eb285ac8d4404f0275662c@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ 〜芋のその先〜|2025-04-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2463,7 +2736,8 @@
     "start": "2025-04-15T16:00:00+09:00",
     "end": "2025-04-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ccceb8ae8558619d23e494f040bda0951c7a8104@twst-kamigame-notifier"
   },
   "復刻ラギー バースデーキャンペーン|2025-04-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2472,7 +2746,8 @@
     "start": "2025-04-17T16:00:00+09:00",
     "end": "2025-04-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-6af7c6bdf5dc88b8f667f03292cb90574a15b2f9@twst-kamigame-notifier"
   },
   "珊瑚の海のエタニティフロート|2025-04-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2481,7 +2756,8 @@
     "start": "2025-04-22T16:00:00+09:00",
     "end": "2025-05-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3ca534f0a9d3b8524dadfa7d83f901f4917c20d1@twst-kamigame-notifier"
   },
   "復刻エペル バースデーキャンペーン|2025-05-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2490,7 +2766,8 @@
     "start": "2025-05-05T16:00:00+09:00",
     "end": "2025-05-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-48cbaddc59cb9bfda4d7b50b7e3182ff770d86b0@twst-kamigame-notifier"
   },
   "第15回NRC統一試験|2025-05-12T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2499,7 +2776,8 @@
     "start": "2025-05-12T16:00:00+09:00",
     "end": "2025-05-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a9814725a6f251d819e619c4b06b013412f62fa3@twst-kamigame-notifier"
   },
   "復刻シルバー バースデーキャンペーン|2025-05-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2508,7 +2786,8 @@
     "start": "2025-05-14T16:00:00+09:00",
     "end": "2025-05-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-78b71e6894f53397585133f4cc87b4f3757ecbad@twst-kamigame-notifier"
   },
   "復刻Lost in Book with Stich~真夏の海と宇宙船~|2025-05-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2517,7 +2796,8 @@
     "start": "2025-05-23T16:00:00+09:00",
     "end": "2025-06-10T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4a129b9ca8d96fc95f3ee5066402dcff1351cf2b@twst-kamigame-notifier"
   },
   "復刻デュース バースデーキャンペーン|2025-06-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2526,7 +2806,8 @@
     "start": "2025-06-02T16:00:00+09:00",
     "end": "2025-06-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0f8f1f0dad81d6651a9466c01dc16969ca97f1ab@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ 〜麺と麺〜|2025-06-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2535,7 +2816,8 @@
     "start": "2025-06-10T16:00:00+09:00",
     "end": "2025-06-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-61f39fe740183f12ae1a3ce6b90d64cd04a84156@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ 〜ルールなきパプリカ〜|2025-06-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2544,7 +2826,8 @@
     "start": "2025-06-17T16:00:00+09:00",
     "end": "2025-06-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f3df307c148bc1e5edd1c721c28d367d254df2aa@twst-kamigame-notifier"
   },
   "復刻カリム バースデーキャンペーン|2025-06-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2553,7 +2836,8 @@
     "start": "2025-06-24T16:00:00+09:00",
     "end": "2025-06-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-8ac19f2b0ad92138849546dfe7efca6453ff3cd4@twst-kamigame-notifier"
   },
   "SSR イデア[冥府の番人]登場キャンペーン|2025-06-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2562,7 +2846,8 @@
     "start": "2025-06-27T16:00:00+09:00",
     "end": "2025-07-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1925d22017647de0bde946a897d1b49dd8f04bf6@twst-kamigame-notifier"
   },
   "メインストーリー読破応援キャンペーン|2025-06-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2571,7 +2856,8 @@
     "start": "2025-06-27T16:00:00+09:00",
     "end": "2025-08-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7241717cba418df71c6903860339fc41592aa1bd@twst-kamigame-notifier"
   },
   "はじける！ハッピーポップコーン～＃C&Dダイナーへようこそ！～|2025-07-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2580,7 +2866,8 @@
     "start": "2025-07-01T16:00:00+09:00",
     "end": "2025-07-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b7243c6e76d917753b0951de1cb1b1b420009ae3@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2025-07-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2589,7 +2876,8 @@
     "start": "2025-07-22T16:00:00+09:00",
     "end": "2025-08-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-37c700d4527dfe623885a231bd31a4882e1d3d3f@twst-kamigame-notifier"
   },
   "復刻レオナ バースデーキャンペーン|2025-07-25T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2598,7 +2886,8 @@
     "start": "2025-07-25T16:00:00+09:00",
     "end": "2025-07-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0b09f3378c867ce58cfef067c4151e97c613e661@twst-kamigame-notifier"
   },
   "SSR ヴィル[美貌の圧制者]登場キャンペーン|2025-08-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2607,7 +2896,8 @@
     "start": "2025-08-01T16:00:00+09:00",
     "end": "2025-08-12T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4efc33b24c497c81aeb9f99d8c2ec4d03063cf85@twst-kamigame-notifier"
   },
   "復刻薔薇の王国のホワイトラビット・フェス|2025-08-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2616,7 +2906,8 @@
     "start": "2025-08-08T16:00:00+09:00",
     "end": "2025-08-25T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-794ed4cb2e771c168629d9bd78525a24bf5c3992@twst-kamigame-notifier"
   },
   "復刻オルト バースデーキャンペーン|2025-08-13T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2625,7 +2916,8 @@
     "start": "2025-08-13T16:00:00+09:00",
     "end": "2025-08-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b21be89fd47749aa22c4a20ec2ffb0e5abce9a1d@twst-kamigame-notifier"
   },
   "復刻リドル バースデーキャンペーン|2025-08-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2634,7 +2926,8 @@
     "start": "2025-08-22T16:00:00+09:00",
     "end": "2025-08-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a6066008b838caca45398f32caacaef0282242a6@twst-kamigame-notifier"
   },
   "新章配信キャンペーン|2025-08-25T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2643,7 +2936,8 @@
     "start": "2025-08-25T16:00:00+09:00",
     "end": "2025-09-05T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-0e8ed338180ef1d06f8fb91aa6c24a801f4b8a40@twst-kamigame-notifier"
   },
   "NRC魔法実践授業Withバルガス|2025-08-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2652,7 +2946,8 @@
     "start": "2025-08-27T16:00:00+09:00",
     "end": "2025-09-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cb882f71a4b3c316c1ecfaf9476578ee72aa4608@twst-kamigame-notifier"
   },
   "バルガスCAMP! 〜ハプニング・リターンズ〜|2025-09-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2661,7 +2956,8 @@
     "start": "2025-09-08T16:00:00+09:00",
     "end": "2025-09-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e734b14bea01275e059a71e1e2df81a58061e6d6@twst-kamigame-notifier"
   },
   "6年目ジャミルバースデー キャンペーン|2025-09-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2670,7 +2966,8 @@
     "start": "2025-09-11T16:00:00+09:00",
     "end": "2025-09-17T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-e7fbd7d9726a258d9e91fcfaa312fae161cbd70c@twst-kamigame-notifier"
   },
   "6年目エースバースデー キャンペーン|2025-09-22T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2679,7 +2976,8 @@
     "start": "2025-09-22T16:00:00+09:00",
     "end": "2025-09-28T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-11b9d81e3078705fd51fa3fcdd78917dd705d720@twst-kamigame-notifier"
   },
   "SSR ジャミル[熱砂の策謀家]登場キャンペーン|2025-09-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2688,7 +2986,8 @@
     "start": "2025-09-26T16:00:00+09:00",
     "end": "2025-10-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-72358b1fc934e8352552ea99bd931381d4707769@twst-kamigame-notifier"
   },
   "第16回NRC統一試験|2025-09-29T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2697,7 +2996,8 @@
     "start": "2025-09-29T16:00:00+09:00",
     "end": "2025-10-08T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b370c15bc5a3c12c5fab34c4258eb7eef6644466@twst-kamigame-notifier"
   },
   "6年目ジャックバースデー キャンペーン|2025-10-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2706,7 +3006,8 @@
     "start": "2025-10-10T16:00:00+09:00",
     "end": "2025-10-16T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-884eb52bc7855812300d2c032a42eefe5a3a2a36@twst-kamigame-notifier"
   },
   "ブレイジングジュエル 開催記念キャンペーン|2025-10-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2715,7 +3016,8 @@
     "start": "2025-10-10T16:00:00+09:00",
     "end": "2025-10-13T23:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c0b35778abd46a61a1e98677b9617ba5a3396aff@twst-kamigame-notifier"
   },
   "復刻ナイトメアハロウィン|2025-10-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2724,7 +3026,8 @@
     "start": "2025-10-14T16:00:00+09:00",
     "end": "2025-11-04T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f15ba78ebbbf5e21fa685d5dcc7dbf6084f19d13@twst-kamigame-notifier"
   },
   "6年目トレイバースデー キャンペーン|2025-10-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2733,7 +3036,8 @@
     "start": "2025-10-24T16:00:00+09:00",
     "end": "2025-10-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7c28eb1df3f29e079228b8880a22658b975c4833@twst-kamigame-notifier"
   },
   "アニメ配信記念キャンペーン|2025-10-29T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2742,7 +3046,8 @@
     "start": "2025-10-29T16:00:00+09:00",
     "end": "2025-11-04T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-94b35f5ac5f717e7cf39fbab8ac1d4feb562225c@twst-kamigame-notifier"
   },
   "6年目ジェイド＆フロイドバースデー キャンペーン|2025-11-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2751,7 +3056,8 @@
     "start": "2025-11-04T16:00:00+09:00",
     "end": "2025-11-10T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7a67d456f0b86bca7c5d12d7c8173861a3509aa2@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2025-11-07T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2760,7 +3066,8 @@
     "start": "2025-11-07T16:00:00+09:00",
     "end": "2025-11-19T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-4bc989a4a5c06c0af0800270b6c38ea25653992e@twst-kamigame-notifier"
   },
   "SSR アズール[深海の商人]登場キャンペーン|2025-11-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2769,7 +3076,8 @@
     "start": "2025-11-10T16:00:00+09:00",
     "end": "2025-11-21T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-9fa3d23995a8a84b8f14ce9c2d9a9226dc5e20c5@twst-kamigame-notifier"
   },
   "ナイトメアクリスマス 1章「邂逅ナイトメアー！」|2025-11-21T17:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2778,7 +3086,8 @@
     "start": "2025-11-21T17:00:00+09:00",
     "end": "2025-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-52159b165586739a95d927ed55281ac507e49641@twst-kamigame-notifier"
   },
   "ナイトメアクリスマス 2章「探訪クリスマス！」|2025-11-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2787,7 +3096,8 @@
     "start": "2025-11-27T16:00:00+09:00",
     "end": "2025-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a43935bb7156513a5f901b8b45a68462055ffe8d@twst-kamigame-notifier"
   },
   "ルークバースデー キャンペーン|2025-12-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2796,7 +3106,8 @@
     "start": "2025-12-01T16:00:00+09:00",
     "end": "2025-12-07T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-5624dbe15fd34c87395aba802617abfa9f052606@twst-kamigame-notifier"
   },
   "ナイトメアクリスマス 3章「説得ピアーズ！」|2025-12-04T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2805,7 +3116,8 @@
     "start": "2025-12-04T16:00:00+09:00",
     "end": "2025-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a7d39ac194fc09dec2dfd7dd2777d33bc19b5151@twst-kamigame-notifier"
   },
   "ナイトメアクリスマス 4章「画策ホリデー！」|2025-12-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2814,7 +3126,8 @@
     "start": "2025-12-11T16:00:00+09:00",
     "end": "2025-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-32cf01af5c427d7dd79732ae84f99df1f5b99d81@twst-kamigame-notifier"
   },
   "イデアバースデー キャンペーン|2025-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2823,7 +3136,8 @@
     "start": "2025-12-17T16:00:00+09:00",
     "end": "2025-12-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-42d03e81455261563af49c86d7f47b306d13d286@twst-kamigame-notifier"
   },
   "ウィンターホリデーキャンペーン|2025-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2832,7 +3146,8 @@
     "start": "2025-12-17T16:00:00+09:00",
     "end": "2025-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-24cfe0a68fd366a7ff1a8bbd3741988fdea8d3c7@twst-kamigame-notifier"
   },
   "ナイトメアクリスマス 5章「終幕クリスマス！」|2025-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2841,7 +3156,8 @@
     "start": "2025-12-17T16:00:00+09:00",
     "end": "2025-12-31T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-25778d9aa93f1585c2ae92552e2e8da6784714ed@twst-kamigame-notifier"
   },
   "ニューイヤー キャンペーン2026|2025-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2850,7 +3166,8 @@
     "start": "2025-12-31T16:00:00+09:00",
     "end": "2026-01-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b7be3ec0c315dd82f24efbfd1f7399a3c2ebd054@twst-kamigame-notifier"
   },
   "リリアバースデー キャンペーン|2025-12-31T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2859,7 +3176,8 @@
     "start": "2025-12-31T16:00:00+09:00",
     "end": "2026-01-06T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-24bd11a447d859237857ced1f3b14764e74584d1@twst-kamigame-notifier"
   },
   "Sam's New Year Sale 2026|2026-01-01T00:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2868,7 +3186,8 @@
     "start": "2026-01-01T00:00:00+09:00",
     "end": "2026-01-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-d8b469662cc17ed3bd5566c36254770a0ed9f157@twst-kamigame-notifier"
   },
   "マレウスバースデー キャンペーン|2026-01-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2877,7 +3196,8 @@
     "start": "2026-01-16T16:00:00+09:00",
     "end": "2026-01-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-61f70d2bbd28182c35a270ed337c5c44f9331ef6@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ〜ミルクの奔流〜|2026-01-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2886,7 +3206,8 @@
     "start": "2026-01-16T16:00:00+09:00",
     "end": "2026-01-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-d0c9872053d23ba47c21c15c56902490e5bb0530@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ〜スイーツ革命〜|2026-01-23T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2895,7 +3216,8 @@
     "start": "2026-01-23T16:00:00+09:00",
     "end": "2026-01-30T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3045d874354cc3d43d7a4f1380ab864787938429@twst-kamigame-notifier"
   },
   "8章Chapter1|2026-01-30T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2904,7 +3226,8 @@
     "start": "2026-01-30T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-159bdeacdacd562cfafede0a3ec590a7a2cef399@twst-kamigame-notifier"
   },
   "新章配信キャンペーン|2026-01-30T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -2913,7 +3236,8 @@
     "start": "2026-01-30T16:00:00+09:00",
     "end": "2026-02-13T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a86b8a8e17780d1c3bb4c99e4eb81876869bf9a1@twst-kamigame-notifier"
   },
   "ケイトバースデー キャンペーン|2026-02-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2922,7 +3246,8 @@
     "start": "2026-02-03T16:00:00+09:00",
     "end": "2026-02-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-21eb9829c322be2f5eda9441c66fce5ca9ccc818@twst-kamigame-notifier"
   },
   "復刻フェアリーガラIF|2026-02-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2931,7 +3256,8 @@
     "start": "2026-02-03T16:00:00+09:00",
     "end": "2026-02-20T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2335c0a6db080542ee2d0b65dff1e2abf1285496@twst-kamigame-notifier"
   },
   "SSR レオナ[荒野の反逆者]登場キャンペーン|2026-02-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2940,7 +3266,8 @@
     "start": "2026-02-20T16:00:00+09:00",
     "end": "2026-03-04T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-c4c9cb1461f36ba33f587e8beb4d22a442c9f3dd@twst-kamigame-notifier"
   },
   "アズールバースデー キャンペーン|2026-02-20T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2949,7 +3276,8 @@
     "start": "2026-02-20T16:00:00+09:00",
     "end": "2026-02-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-59a734bd76072bda8bc7987a3a46612e6ee8fae9@twst-kamigame-notifier"
   },
   "第17回NRC統一試験|2026-02-26T17:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2958,7 +3286,8 @@
     "start": "2026-02-26T17:00:00+09:00",
     "end": "2026-03-09T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ec7c3ffbaa6613f1c3b091a27a4b8c99db30da0e@twst-kamigame-notifier"
   },
   "6周年アニバーサリー|2026-03-09T18:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2967,7 +3296,8 @@
     "start": "2026-03-09T18:00:00+09:00",
     "end": "2026-03-27T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-7eb832a49d45e4a8ae893574bb7b83c41d6d2be1@twst-kamigame-notifier"
   },
   "セベクバースデー キャンペーン|2026-03-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2976,7 +3306,8 @@
     "start": "2026-03-16T16:00:00+09:00",
     "end": "2026-03-22T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-599cb4d8e645b2d45148925f83060fd7352110fa@twst-kamigame-notifier"
   },
   "8章Chapter2|2026-03-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2985,7 +3316,8 @@
     "start": "2026-03-27T16:00:00+09:00",
     "end": null,
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-00389e77d8587718f87094da01fc186f5bd4380f@twst-kamigame-notifier"
   },
   "SSR リドル[真紅の暴君]登場キャンペーン|2026-04-03T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -2994,7 +3326,8 @@
     "start": "2026-04-03T16:00:00+09:00",
     "end": "2026-04-15T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-aedfa92eda1e56151aa59257e8d80dd734c16749@twst-kamigame-notifier"
   },
   "ヴィルバースデー キャンペーン|2026-04-08T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3003,7 +3336,8 @@
     "start": "2026-04-08T16:00:00+09:00",
     "end": "2026-04-14T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-b5869f4896d7cbbaf14568f9d143331376b008c4@twst-kamigame-notifier"
   },
   "リトル・ビッグアドベンチャー|2026-04-10T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3012,7 +3346,8 @@
     "start": "2026-04-10T16:00:00+09:00",
     "end": "2026-05-01T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-cdfcd133ca84036c73233151a726dd0f1c23cf5e@twst-kamigame-notifier"
   },
   "ラギーバースデー キャンペーン|2026-04-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3021,7 +3356,8 @@
     "start": "2026-04-17T16:00:00+09:00",
     "end": "2026-04-23T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f45ccbbabbfc93b261b13d3e3a9a05ec17369864@twst-kamigame-notifier"
   },
   "復刻NRCマスターシェフ〜米との出会い〜|2026-05-01T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3030,7 +3366,8 @@
     "start": "2026-05-01T16:00:00+09:00",
     "end": "2026-05-11T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2360bd1708c7b2b8d8f66762c56cdd9dce22b869@twst-kamigame-notifier"
   },
   "エペルバースデー キャンペーン|2026-05-05T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3039,7 +3376,8 @@
     "start": "2026-05-05T16:00:00+09:00",
     "end": "2026-05-11T14:59:00+09:00",
     "description": "ツイステのエペルの誕生日を記念した「バースデーキャンペーン」最新情報と内容をご紹介。エペル誕生日ガチャ（バースデーガチャ）の種類や、前回開催との違いも紹介しているので、ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-3602f4b19399d75e41b2818e30f4fc10fc3bdc66@twst-kamigame-notifier"
   },
   "復刻ようこそ！ツムステッドワンダーランド|2026-05-11T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3048,7 +3386,8 @@
     "start": "2026-05-11T16:00:00+09:00",
     "end": "2026-05-27T14:59:00+09:00",
     "description": "ツイステッドワンダーランド(ツイステ)のツイステ×ツムツムコラボ「ようこそ！ツムステッドワンダーランド」の攻略方法をご紹介！イベントの最新情報や詳細、攻略方法、報酬、ミッション内容などをまとめてありますので、ツムツムコラボイベント攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-db6b01a51559bae6929724371eb26e153a27e345@twst-kamigame-notifier"
   },
   "シルバーバースデー キャンペーン|2026-05-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3057,7 +3396,8 @@
     "start": "2026-05-14T16:00:00+09:00",
     "end": "2026-05-20T14:59:00+09:00",
     "description": "ツイステのシルバーの誕生日を記念した「バースデーキャンペーン」最新情報と内容をご紹介。シルバー誕生日ガチャ（バースデーガチャ）の種類や、前回開催との違いも紹介しているので、ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-ad291d6e60918de4587fe7b978c39e34c8f3b512@twst-kamigame-notifier"
   },
   "復刻ようこそ！ツムステッドワンダーランドPart2|2026-05-27T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3066,7 +3406,8 @@
     "start": "2026-05-27T16:00:00+09:00",
     "end": "2026-06-12T14:59:00+09:00",
     "description": "ツイステッドワンダーランド(ツイステ)のツイステ×ツムツムコラボ「ようこそ！ツムステッドワンダーランドPart2」の攻略方法をご紹介！イベントの最新情報や詳細、攻略方法、報酬、ミッション内容などをまとめてありますので、ツムツムコラボイベント攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f4e2940bafb2a51e4e9c93a0e93a9332d3a5c9d5@twst-kamigame-notifier"
   },
   "デュースバースデー キャンペーン|2026-06-02T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3075,7 +3416,8 @@
     "start": "2026-06-02T16:00:00+09:00",
     "end": "2026-06-08T14:59:00+09:00",
     "description": "ツイステのデュースの誕生日を記念した「バースデーキャンペーン」最新情報と内容をご紹介。デュース誕生日ガチャ（バースデーガチャ）の種類や、前回開催との違いも紹介しているので、ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-66e1ae921a458bd7dd5c27afb62e1a3947158648@twst-kamigame-notifier"
   },
   "強化合宿 NRC寮合同編|2026-06-15T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:02:29.279634+00:00",
@@ -3084,7 +3426,8 @@
     "start": "2026-06-15T16:00:00+09:00",
     "end": "2026-06-26T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-1167a222f600f0eb3eae90c88a528c5644f08a64@twst-kamigame-notifier"
   },
   "カリムバースデー キャンペーン|2026-06-24T16:00:00+09:00": {
     "discovered_at": "2026-07-03T13:27:33.702744+00:00",
@@ -3093,7 +3436,8 @@
     "start": "2026-06-24T16:00:00+09:00",
     "end": "2026-06-30T14:59:00+09:00",
     "description": "ツイステッドワンダーランド(ツイステ)のカリムの誕生日を記念した復刻版「バースデーキャンペーン」最新情報と内容をご紹介！誕生日ガチャ（バースデーガチャ）の種類やストーリーのあらすじ、バースデーデュオ一覧も紹介しているので、ツイステ攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-f62e9cfb18810d7f32ffe48492301dd057381e29@twst-kamigame-notifier"
   },
   "8章Chapter3|2026-06-26T16:00:00+09:00": {
     "discovered_at": "2026-07-03T14:36:35.382517+00:00",
@@ -3102,16 +3446,18 @@
     "start": "2026-06-26T16:00:00+09:00",
     "end": null,
     "description": "ツイステの8章「禁忌の執行人」Chapter3の攻略情報を紹介。配信情報や攻略チャート、ストーリー解放条件、攻略ポイント、バトル情報などを掲載。ツイステッドワンダーランドのメインストーリー攻略時の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-05ad715cf597f260da42b3d7785df4b62ae5cd46@twst-kamigame-notifier"
   },
   "Lost in the Book with Baymax 〜大都市ロボット・ファイト！〜|2026-06-30T16:00:00+09:00": {
     "discovered_at": "2026-07-03T14:36:35.382517+00:00",
     "title": "Lost in the Book with Baymax 〜大都市ロボット・ファイト！〜",
-    "url": null,
+    "url": "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/427929665265532085.html",
     "start": "2026-06-30T16:00:00+09:00",
     "end": "2026-07-24T14:59:00+09:00",
     "description": "",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-a8acb94fccb13561d3a88c0e09b1779dd0ae4477@twst-kamigame-notifier"
   },
   "ベイマックス（シルバー＆ジェイド）PU|2026-06-30T16:00:00+09:00": {
     "discovered_at": "2026-07-03T14:36:35.382517+00:00",
@@ -3120,7 +3466,8 @@
     "start": "2026-06-30T16:00:00+09:00",
     "end": "2026-07-14T14:59:00+09:00",
     "description": "ツイステの期間限定召喚ベイマックスイベ（シルバー＆ジェイド）ガチャは引くべきか？をご紹介！引けるシルバー（フレンドリーテック）やジェイド（フレンドリーテック）の性能に加え、ガチャの注意点についても掲載。ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "gacha"
+    "type": "gacha",
+    "uid": "twst-b23b1d8eeae9937e809a03ae6e2b3363feed0ca1@twst-kamigame-notifier"
   },
   "ベイマックス（カリム＆ルーク）PU|2026-07-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T14:36:35.382517+00:00",
@@ -3129,7 +3476,8 @@
     "start": "2026-07-14T16:00:00+09:00",
     "end": "2026-07-24T14:59:00+09:00",
     "description": "ツイステの期間限定召喚ベイマックスイベ（カリム＆ルーク）ガチャは引くべきか？をご紹介！引けるカリム（フレンドリーテック）やルーク（フレンドリーテック）の性能に加え、ガチャの注意点についても掲載。ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "gacha"
+    "type": "gacha",
+    "uid": "twst-3689f63f91baeda63a7ae079f3d7af6f064f790d@twst-kamigame-notifier"
   },
   "ボンボニエールレオナ|2026-07-24T16:00:00+09:00": {
     "discovered_at": "2026-07-24T08:15:52.183129+00:00",
@@ -3138,7 +3486,8 @@
     "start": "2026-07-24T16:00:00+09:00",
     "end": "2026-07-30T14:59:00+09:00",
     "description": "ツイステのレオナ誕生日ガチャ（バースデーガチャ）は引くべきか？をご紹介！引けるレオナ（ラ・ボンボニエール）の性能、関連家具についても解説しているので、ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "gacha"
+    "type": "gacha",
+    "uid": "twst-013d1a85b54e3954c341b3d446b989b805ee108a@twst-kamigame-notifier"
   },
   "マスターシェフ 限定カード追加キャンペーン|2026-07-24T16:00:00+09:00": {
     "discovered_at": "2026-07-22T19:04:59.308415+00:00",
@@ -3147,7 +3496,8 @@
     "start": "2026-07-24T16:00:00+09:00",
     "end": "2026-08-03T14:59:00+09:00",
     "description": "ツイステのマスターシェフ限定衣装カード追加キャンペーンを解説。キャンペーンログインボーナスや、マスターシェフメダルの使い道などをまとめています。ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-2cb2a0f104681d9cc62de88289fa03ca9a9cd43c@twst-kamigame-notifier"
   },
   "マスターシェフ限定カード 恒常ガチャ追加キャンペーン|2026-07-24T16:00:00+09:00": {
     "discovered_at": "2026-07-22T23:57:33.256884+00:00",
@@ -3156,7 +3506,8 @@
     "start": "2026-07-24T16:00:00+09:00",
     "end": "2026-08-03T14:59:00+09:00",
     "description": "ツイステのマスターシェフ限定衣装カード追加キャンペーンを解説。キャンペーンログインボーナスや、マスターシェフメダルの使い道などをまとめています。ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-fd1a04738ad30ca3af92cdeaa86b73e2ceffd5fb@twst-kamigame-notifier"
   },
   "レオナバースデー キャンペーン|2026-07-24T16:00:00+09:00": {
     "discovered_at": "2026-07-22T13:37:56.198020+00:00",
@@ -3165,7 +3516,8 @@
     "start": "2026-07-24T16:00:00+09:00",
     "end": "2026-07-30T14:59:00+09:00",
     "description": "ツイステッドワンダーランド(ツイステ)のレオナの誕生日を記念した復刻版「バースデーキャンペーン」最新情報と内容をご紹介！誕生日ガチャ（バースデーガチャ）の種類やバースデーストーリーのあらすじ、前回開催との違いも紹介しているので、ツイステ攻略の参考にどうぞ。",
-    "type": "event"
+    "type": "event",
+    "uid": "twst-5898725e967bdcfbcbe30de78fd67975b7e6c08b@twst-kamigame-notifier"
   },
   "復刻くつろぎレオナ|2026-07-24T16:00:00+09:00": {
     "discovered_at": "2026-07-24T08:15:52.183129+00:00",
@@ -3174,7 +3526,8 @@
     "start": "2026-07-24T16:00:00+09:00",
     "end": "2026-07-30T14:59:00+09:00",
     "description": "ツイステのレオナ誕生日ガチャ（バースデーガチャ）は引くべきか？をご紹介！引けるレオナ（くつろぎマイルーム）の性能、関連家具についても解説しているので、ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "gacha"
+    "type": "gacha",
+    "uid": "twst-5d444fa3739ff8a588d4128a6454ff7320dcb9c8@twst-kamigame-notifier"
   },
   "復刻レオナ歴代BD|2026-07-24T16:00:00+09:00": {
     "discovered_at": "2026-07-24T08:15:52.183129+00:00",
@@ -3183,6 +3536,7 @@
     "start": "2026-07-24T16:00:00+09:00",
     "end": "2026-07-30T14:59:00+09:00",
     "description": "ツイステのレオナ歴代誕生日ガチャ（バースデーガチャ）は引くべきか？をご紹介！おめかしレオナやユニオンレオナ、ブルームレオナ、プラチナレオナの性能、関連家具についても解説しているので、ツイステッドワンダーランド攻略の参考にどうぞ。",
-    "type": "gacha"
+    "type": "gacha",
+    "uid": "twst-0b59aae5d8f820677563aad55e546108a72f3de3@twst-kamigame-notifier"
   }
 }

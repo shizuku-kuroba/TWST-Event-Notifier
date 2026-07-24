@@ -129,43 +129,75 @@ def event_key(ev: dict) -> str:
         return f"{ev['title']}|{ev['url']}"
     return ev["title"]
 
-def state_has_event(state: dict, key: str, ev: dict) -> bool:
-    if key in state:
-        return True
+def parse_iso_datetime(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError:
+        return None
 
-    for existing in state.values():
+def dates_are_close(left: str | None, right: str | None, max_days: int = 45) -> bool:
+    left_dt = parse_iso_datetime(left)
+    right_dt = parse_iso_datetime(right)
+    if not left_dt or not right_dt:
+        return False
+    return abs((left_dt - right_dt).days) <= max_days
+
+def find_matching_state_key(state: dict, key: str, ev: dict) -> str | None:
+    if key in state:
+        return key
+
+    for existing_key, existing in state.items():
         same_title_and_start = (
             existing.get("title") == ev.get("title")
             and existing.get("start") == ev.get("start")
         )
         if same_title_and_start:
-            return True
+            return existing_key
 
         same_url = ev.get("url") and existing.get("url") == ev.get("url")
         if same_url:
-            if not ev.get("start"):
-                return True
+            if not ev.get("start") or not existing.get("start"):
+                return existing_key
             if existing.get("start") == ev.get("start"):
-                return True
+                return existing_key
+            if existing.get("title") == ev.get("title"):
+                return existing_key
+            if dates_are_close(existing.get("start"), ev.get("start")):
+                return existing_key
 
-    return False
+    return None
+
+def state_has_event(state: dict, key: str, ev: dict) -> bool:
+    return find_matching_state_key(state, key, ev) is not None
 
 def merge_event(existing: dict | None, incoming: dict) -> dict:
     if not existing:
         return incoming
 
     merged = {**existing, **incoming}
+    if existing.get("uid"):
+        merged["uid"] = existing["uid"]
+    if existing.get("discovered_at"):
+        merged["discovered_at"] = existing["discovered_at"]
     for field in ("description", "url", "end", "start"):
         if not merged.get(field) and existing.get(field):
             merged[field] = existing[field]
     return merged
 
+def ensure_event_uid(info: dict, fallback_key: str) -> dict:
+    if not info.get("uid"):
+        info["uid"] = event_uid(fallback_key)
+    return info
+
 def normalize_state(state: dict) -> dict:
     normalized = {}
-    for info in state.values():
+    for old_key, info in state.items():
         if not info.get("title"):
             continue
 
+        info = ensure_event_uid(dict(info), old_key)
         key = event_key(info)
         normalized[key] = merge_event(normalized.get(key), info)
 
@@ -340,7 +372,7 @@ def generate_ics(state: dict):
             else:
                 e.description = f"{desc}\n\n(此預告目前尚無詳細連結)"
                 
-            e.uid = event_uid(key)
+            e.uid = info.get("uid") or event_uid(key)
             cal.events.add(e)
             
     with open(ICS_FILE, 'w', encoding='utf-8') as f:
@@ -430,7 +462,14 @@ def main():
         if not ev.get("title"):
             continue
 
-        if state_has_event(state, key, ev):
+        existing_key = find_matching_state_key(state, key, ev)
+        if existing_key:
+            updated = merge_event(state[existing_key], ev)
+            updated = ensure_event_uid(updated, existing_key)
+            updated_key = event_key(updated)
+            if updated_key != existing_key:
+                del state[existing_key]
+            state[updated_key] = updated
             continue
             
         # 已結束的活動只補進 state/ICS，不補發 Discord。
@@ -439,7 +478,10 @@ def main():
                 start_dt = datetime.fromisoformat(ev["start"])
                 end_dt = datetime.fromisoformat(ev["end"]) if ev.get("end") else start_dt
                 if end_dt < now:
-                    state[key] = {"discovered_at": now.isoformat(), **ev}
+                    state[key] = ensure_event_uid(
+                        {"discovered_at": now.isoformat(), **ev},
+                        key,
+                    )
                     continue
             except ValueError:
                 pass
@@ -468,10 +510,13 @@ def main():
             if key not in pushed_titles:
                 continue
 
-            state[key] = {
-                "discovered_at": now.isoformat(),
-                **ev
-            }
+            state[key] = ensure_event_uid(
+                {
+                    "discovered_at": now.isoformat(),
+                    **ev
+                },
+                key,
+            )
     else:
         print("沒有新情報，不需推送。")
 

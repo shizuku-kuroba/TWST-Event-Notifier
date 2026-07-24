@@ -252,11 +252,12 @@ UID:twst-599cb4d8e645b2d45148925f83060fd7352110fa@twst-kamigame-notifier
 URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/201773588808780296.html
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n\n(此預告目前尚無詳細連結)
+DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/427929665265532085.html
 DTEND:20260724T055900Z
 DTSTART:20260630T070000Z
 SUMMARY:Lost in the Book with Baymax 〜大都市ロボット・ファイト！〜
 UID:twst-a8acb94fccb13561d3a88c0e09b1779dd0ae4477@twst-kamigame-notifier
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/427929665265532085.html
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/304145618991857658.html
