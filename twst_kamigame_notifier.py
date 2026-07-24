@@ -10,6 +10,7 @@ import re
 import sys
 import json
 import time
+import hashlib
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
@@ -132,14 +133,56 @@ def state_has_event(state: dict, key: str, ev: dict) -> bool:
     if key in state:
         return True
 
-    legacy = state.get(ev["title"])
-    if not legacy:
-        return False
+    for existing in state.values():
+        same_title_and_start = (
+            existing.get("title") == ev.get("title")
+            and existing.get("start") == ev.get("start")
+        )
+        if same_title_and_start:
+            return True
 
-    return (
-        legacy.get("start") == ev.get("start")
-        or (not ev.get("start") and legacy.get("url") == ev.get("url"))
+        same_url = ev.get("url") and existing.get("url") == ev.get("url")
+        if same_url:
+            if not ev.get("start"):
+                return True
+            if existing.get("start") == ev.get("start"):
+                return True
+
+    return False
+
+def merge_event(existing: dict | None, incoming: dict) -> dict:
+    if not existing:
+        return incoming
+
+    merged = {**existing, **incoming}
+    for field in ("description", "url", "end", "start"):
+        if not merged.get(field) and existing.get(field):
+            merged[field] = existing[field]
+    return merged
+
+def normalize_state(state: dict) -> dict:
+    normalized = {}
+    for info in state.values():
+        if not info.get("title"):
+            continue
+
+        key = event_key(info)
+        normalized[key] = merge_event(normalized.get(key), info)
+
+    return dict(
+        sorted(
+            normalized.items(),
+            key=lambda item: (
+                item[1].get("start") or "9999",
+                item[1].get("title") or "",
+                item[0],
+            ),
+        )
     )
+
+def event_uid(key: str) -> str:
+    digest = hashlib.sha1(key.encode("utf-8")).hexdigest()
+    return f"twst-{digest}@twst-kamigame-notifier"
 
 def extract_event_table(table, events: dict, table_year: int | None) -> None:
     first_row = table.find("tr")
@@ -156,6 +199,8 @@ def extract_event_table(table, events: dict, table_year: int | None) -> None:
             tds = tr.find_all(["td", "th"])
             if len(tds) >= 2:
                 title = tds[0].get_text(" ", strip=True)
+                if not title:
+                    continue
                 if title in ["イベント名", "キャンペーン名", "マスターシェフ"]:
                     continue
 
@@ -194,6 +239,8 @@ def parse_gacha_summary(html: str) -> dict:
                 if "/page/" in href and href.endswith(".html"):
                     url = href if href.startswith("http") else BASE_URL + href
                     title = a.get_text(strip=True)
+                    if not title:
+                        continue
                     
                     bad = ["評価", "ステータス", "引くべき", "家具"]
                     if any(b in title for b in bad):
@@ -293,7 +340,7 @@ def generate_ics(state: dict):
             else:
                 e.description = f"{desc}\n\n(此預告目前尚無詳細連結)"
                 
-            e.uid = info.get("title").replace(" ", "_")
+            e.uid = event_uid(key)
             cal.events.add(e)
             
     with open(ICS_FILE, 'w', encoding='utf-8') as f:
@@ -311,6 +358,9 @@ def push_to_discord(events: list[dict]) -> set[str]:
 
     pushed_titles = set()
     for ev in events:
+        if not ev.get("title"):
+            continue
+
         embed = {
             "title": f"🎉 {ev['title']}",
             "color": 0x8AA8C6,
@@ -342,7 +392,7 @@ def push_to_discord(events: list[dict]) -> set[str]:
         if resp.status_code >= 300:
             print(f"[錯誤] 推送失敗 ({resp.status_code}): {ev['title']} -> {resp.text}", file=sys.stderr)
         else:
-            pushed_titles.add(ev["title"])
+            pushed_titles.add(event_key(ev))
             print(f"[已推送] {ev['title']}")
 
         time.sleep(REQUEST_INTERVAL_SEC)
@@ -372,11 +422,14 @@ def main():
     all_events = {**events, **gachas}
     print(f"共擷取到 {len(all_events)} 筆活動與抽卡資料 (歷史總計)。")
     
-    state = load_state()
+    state = normalize_state(load_state())
     events_to_push = []
     
     # 針對沒有存在 state 中的新事件處理
     for key, ev in all_events.items():
+        if not ev.get("title"):
+            continue
+
         if state_has_event(state, key, ev):
             continue
             
@@ -411,17 +464,18 @@ def main():
         print(f"開始推送 {len(events_to_push)} 筆新情報到 Discord ...")
         pushed_titles = push_to_discord(events_to_push)
         for ev in events_to_push:
-            title = ev["title"]
-            if title not in pushed_titles:
+            key = event_key(ev)
+            if key not in pushed_titles:
                 continue
 
-            state[event_key(ev)] = {
+            state[key] = {
                 "discovered_at": now.isoformat(),
                 **ev
             }
     else:
         print("沒有新情報，不需推送。")
 
+    state = normalize_state(state)
     save_state(state)
     generate_ics(state)
     print("完成。")
