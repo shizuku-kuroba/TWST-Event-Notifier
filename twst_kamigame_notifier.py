@@ -352,9 +352,42 @@ def save_state(state: dict) -> None:
         json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
+def calendar_identity(info: dict) -> tuple[str, str, str]:
+    return (
+        info.get("url") or info.get("title") or "",
+        info.get("start") or "",
+        info.get("end") or "",
+    )
+
+def calendar_entries(state: dict) -> dict:
+    entries = {}
+    for key, info in state.items():
+        if not info.get("start"):
+            continue
+        if info.get("type") == "gacha":
+            continue
+
+        cal_key = calendar_identity(info)
+        existing = entries.get(cal_key)
+        if not existing:
+            entries[cal_key] = {**info, "_state_key": key, "_merged_titles": []}
+            continue
+
+        title = info.get("title")
+        merged_titles = existing.setdefault("_merged_titles", [])
+        if title and title != existing.get("title") and title not in merged_titles:
+            merged_titles.append(title)
+
+        if not existing.get("description") and info.get("description"):
+            existing["description"] = info["description"]
+        if not existing.get("uid") and info.get("uid"):
+            existing["uid"] = info["uid"]
+
+    return entries
+
 def generate_ics(state: dict):
     cal = Calendar()
-    for key, info in state.items():
+    for key, info in calendar_entries(state).items():
         if info.get("start"):
             e = Event()
             e.name = info.get("title", "未知活動")
@@ -372,7 +405,7 @@ def generate_ics(state: dict):
             else:
                 e.description = f"{desc}\n\n(此預告目前尚無詳細連結)"
                 
-            e.uid = info.get("uid") or event_uid(key)
+            e.uid = info.get("uid") or event_uid(str(key))
             cal.events.add(e)
             
     with open(ICS_FILE, 'w', encoding='utf-8') as f:
