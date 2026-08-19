@@ -3579,6 +3579,16 @@
     "type": "gacha",
     "uid": "twst-8b60fc0bed821602dec503a4d3964b005edc9ace@twst-kamigame-notifier"
   },
+  "NRC統一試験|2026-08-21T16:00:00+09:00": {
+    "discovered_at": "2026-08-19T21:19:33.895138+00:00",
+    "title": "NRC統一試験",
+    "url": null,
+    "start": "2026-08-21T16:00:00+09:00",
+    "end": "2026-08-31T14:59:00+09:00",
+    "description": "",
+    "type": "event",
+    "uid": "twst-30f7ff6a80218c8e4dc087b91bf34289cfb5a7d0@twst-kamigame-notifier"
+  },
   "ボンボニエールリドル|2026-08-21T16:00:00+09:00": {
     "discovered_at": "2026-08-19T18:24:59.731549+00:00",
     "title": "ボンボニエールリドル",
@@ -3608,6 +3618,16 @@
     "description": "ツイステのリドル歴代誕生日ガチャ（バースデーガチャ）は引くべきか？をご紹介！おめかしリドルやユニオンリドル、ブルームリドル、プラチナリドルの性能、関連家具についても解説しているので、ツイステッドワンダーランド攻略の参考にどうぞ。",
     "type": "gacha",
     "uid": "twst-0fbc979557b64e5cbc918ea5e21f5d3b4838aaa2@twst-kamigame-notifier"
+  },
+  "活動記録軽音部|2026-08-21T16:00:00+09:00": {
+    "discovered_at": "2026-08-19T21:19:33.895138+00:00",
+    "title": "活動記録軽音部",
+    "url": null,
+    "start": "2026-08-21T16:00:00+09:00",
+    "end": "2026-08-31T14:59:00+09:00",
+    "description": "",
+    "type": "event",
+    "uid": "twst-1fed4c8660c54bee68a92b47496585e75e7db7ac@twst-kamigame-notifier"
   },
   "ツムステ（イデア＆ラギー）PU|https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/317366656730971300.html": {
     "discovered_at": "2026-07-29T13:56:19.528526+00:00",
