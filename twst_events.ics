@@ -1670,6 +1670,14 @@ UID:twst-1bd1322a482ad913cfd7bb92ab874240c7bfff2d@twst-kamigame-notifier
 URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/300060682542437845.html
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/170618862847399383.html
+DTEND:20260819T055900Z
+DTSTART:20260813T070000Z
+SUMMARY:オルトバースデー キャンペーン
+UID:twst-07fb3a6021a3bed47766a7b59d0db027102f8f9e@twst-kamigame-notifier
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/170618862847399383.html
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/281224375821171085.html
 DTEND:20260123T055900Z
 DTSTART:20260116T070000Z
@@ -2087,6 +2095,14 @@ DTSTART:20221007T070000Z
 SUMMARY:復刻ジャック バースデーキャンペーン
 UID:twst-443a56ef7e8418890ec70409aa8299cf50147577@twst-kamigame-notifier
 URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/178761187691866832.html
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ツイステのリドルの誕生日を記念した「バースデーキャンペーン」最新情報と内容をご紹介！誕生日ガチャ（バースデーガチャ）の種類やバースデーパック、誕生日ミッションやメダルショップの交換内容も紹介しているので、ツイステッドワンダーランド攻略の参考にどうぞ。\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/172211496330203826.html
+DTEND:20260827T055900Z
+DTSTART:20260821T070000Z
+SUMMARY:リドルバースデー キャンペーン
+UID:twst-7d1563bab3d2352882d748dc06303d9d1802f866@twst-kamigame-notifier
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/172211496330203826.html
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/280207918056405313.html
