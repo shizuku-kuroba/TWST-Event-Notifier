@@ -633,6 +633,14 @@ SUMMARY:第1回NRC統一試験
 UID:twst-2326bf3fb314b6fd30a68e204721021b20779363@twst-kamigame-notifier
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:ツイステのジャミルの誕生日を記念した「バースデーキャンペーン」最新情報と内容をご紹介！誕生日ガチャ（バースデーガチャ）の種類やバースデーパック、誕生日ミッションやメダルショップの交換内容も紹介しているので、ツイステッドワンダーランド攻略の参考にどうぞ。\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/174677300221104402.html
+DTEND:20260917T055900Z
+DTSTART:20260911T070000Z
+SUMMARY:ジャミルバースデー キャンペーン
+UID:twst-e7ac5abdb4fd04d0c0b401a1767988edeb7e888d@twst-kamigame-notifier
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/174677300221104402.html
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/173382905056207036.html
 DTEND:20210922T055900Z
 DTSTART:20210831T070000Z
