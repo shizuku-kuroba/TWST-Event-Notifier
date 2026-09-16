@@ -2291,6 +2291,14 @@ UID:twst-cf893ce3192be3e19f66c37e9b90125c3b62d7b3@twst-kamigame-notifier
 URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89/NRC%E7%B5%B1%E4%B8%80%E8%A9%A6%E9%A8%93.html
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:ツイステの8章「禁忌の執行人」Chapter3の攻略情報を紹介。配信情報や攻略チャート、ストーリー解放条件、攻略ポイント、ミニゲーム情報、バトル情報などを掲載。ツイステッドワンダーランドのメインストーリー攻略時の参考にどうぞ。\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/428073518433874702.html
+DTEND:20260918T080000Z
+DTSTART:20260918T070000Z
+SUMMARY:8章Chapter4
+UID:twst-6fadf63400a79075c8459e718983611c0e3f5e0c@twst-kamigame-notifier
+URL:https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/428073518433874702.html
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:\n\n詳細連結: https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89/NRC%E7%B5%B1%E4%B8%80%E8%A9%A6%E9%A8%93.html
 DTEND:20211027T055900Z
 DTSTART:20211018T070000Z
