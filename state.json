@@ -347,7 +347,7 @@
     "end": "2020-12-14T14:59:00+09:00",
     "description": "",
     "type": "event",
-    "uid": "twst-aa9861e832bcb5bce919f76a0e15e2325b348062@twst-kamigame-notifier"
+    "uid": "twst-47004edec6a242a9434181f67548845040d6f72b@twst-kamigame-notifier"
   },
   "第2回NRC統一試験|2020-12-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -528,6 +528,16 @@
     "description": "",
     "type": "event",
     "uid": "twst-6780eb259391ad6bd1d41e5bb249ba07f2ff64ae@twst-kamigame-notifier"
+  },
+  "強化合宿 NRC寮合同編|2021-04-12T16:00:00+09:00": {
+    "discovered_at": "2026-07-03T15:01:38.703561+00:00",
+    "title": "強化合宿 NRC寮合同編",
+    "url": "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/133259293163051082.html",
+    "start": "2021-04-12T16:00:00+09:00",
+    "end": "2021-04-20T14:59:00+09:00",
+    "description": "",
+    "type": "event",
+    "uid": "twst-aa9861e832bcb5bce919f76a0e15e2325b348062@twst-kamigame-notifier"
   },
   "ラギー バースデーキャンペーン|2021-04-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -848,16 +858,6 @@
     "description": "",
     "type": "event",
     "uid": "twst-6cbe945569fc2d2829c15d622c701c22a0fbb45f@twst-kamigame-notifier"
-  },
-  "強化合宿 NRC寮合同編|2021-12-13T16:00:00+09:00": {
-    "discovered_at": "2026-07-03T15:01:38.703561+00:00",
-    "title": "強化合宿 NRC寮合同編",
-    "url": "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/133259293163051082.html",
-    "start": "2021-12-13T16:00:00+09:00",
-    "end": "2021-12-24T14:59:00+09:00",
-    "description": "",
-    "type": "event",
-    "uid": "twst-47004edec6a242a9434181f67548845040d6f72b@twst-kamigame-notifier"
   },
   "復刻イデア バースデーキャンペーン|2021-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -3938,6 +3938,16 @@
     "description": "",
     "type": "event",
     "uid": "twst-30f7ff6a80218c8e4dc087b91bf34289cfb5a7d0@twst-kamigame-notifier"
+  },
+  "復刻バスケットボール部召喚|2026-11-09T16:00:00+09:00": {
+    "discovered_at": "2026-11-09T18:09:12.188380+00:00",
+    "title": "復刻バスケットボール部召喚",
+    "url": "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/448239337281171387.html",
+    "start": "2026-11-09T16:00:00+09:00",
+    "end": "2026-11-20T14:59:00+09:00",
+    "description": "ツイステの復刻バスケットボール部ガチャ（エース＆ジャミル＆フロイド）は引くべきか？を解説。ガチャで引けるエース(クラブ・ウェア)、ジャミル(クラブ・ウェア)、フロイド(クラブ・ウェア)の性能やカードに付いてくる家具製作権、部活メダルについても紹介しているため、ツイステッドワンダーランドを攻略する際の参考にどうぞ。",
+    "type": "gacha",
+    "uid": "twst-1feb7b61777827dc5e5619d085c6ad3379c0b6c1@twst-kamigame-notifier"
   },
   "活動記録バスケットボール部|2026-11-09T16:00:00+09:00": {
     "discovered_at": "2026-11-06T15:33:38.311332+00:00",
