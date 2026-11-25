@@ -347,7 +347,7 @@
     "end": "2020-12-14T14:59:00+09:00",
     "description": "",
     "type": "event",
-    "uid": "twst-aa9861e832bcb5bce919f76a0e15e2325b348062@twst-kamigame-notifier"
+    "uid": "twst-47004edec6a242a9434181f67548845040d6f72b@twst-kamigame-notifier"
   },
   "第2回NRC統一試験|2020-12-14T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -528,6 +528,16 @@
     "description": "",
     "type": "event",
     "uid": "twst-6780eb259391ad6bd1d41e5bb249ba07f2ff64ae@twst-kamigame-notifier"
+  },
+  "強化合宿 NRC寮合同編|2021-04-12T16:00:00+09:00": {
+    "discovered_at": "2026-07-03T15:01:38.703561+00:00",
+    "title": "強化合宿 NRC寮合同編",
+    "url": "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/133259293163051082.html",
+    "start": "2021-04-12T16:00:00+09:00",
+    "end": "2021-04-20T14:59:00+09:00",
+    "description": "",
+    "type": "event",
+    "uid": "twst-aa9861e832bcb5bce919f76a0e15e2325b348062@twst-kamigame-notifier"
   },
   "ラギー バースデーキャンペーン|2021-04-16T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
@@ -848,16 +858,6 @@
     "description": "",
     "type": "event",
     "uid": "twst-6cbe945569fc2d2829c15d622c701c22a0fbb45f@twst-kamigame-notifier"
-  },
-  "強化合宿 NRC寮合同編|2021-12-13T16:00:00+09:00": {
-    "discovered_at": "2026-07-03T15:01:38.703561+00:00",
-    "title": "強化合宿 NRC寮合同編",
-    "url": "https://kamigame.jp/%E3%83%84%E3%82%A4%E3%82%B9%E3%83%86/page/133259293163051082.html",
-    "start": "2021-12-13T16:00:00+09:00",
-    "end": "2021-12-24T14:59:00+09:00",
-    "description": "",
-    "type": "event",
-    "uid": "twst-47004edec6a242a9434181f67548845040d6f72b@twst-kamigame-notifier"
   },
   "復刻イデア バースデーキャンペーン|2021-12-17T16:00:00+09:00": {
     "discovered_at": "2026-07-03T15:01:38.703561+00:00",
